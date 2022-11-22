@@ -4,7 +4,7 @@
   "description": "My web developer portfolio",
   "source": "./src/index.html",
   "scripts": {
-    "start": "parcel ./src/*.html",
+    "start": "parcel serve ./src/*.html --public-url / --dist-dir dist",
     "build": "parcel build ./src/*.html"
   },
   "keywords": [],
