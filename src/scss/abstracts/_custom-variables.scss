@@ -1,0 +1,38 @@
+/****** FONTS ******/
+//Bootstrap overrides
+$font-family-sans-serif: "Raleway", sans-serif; //(400,500, 600, 700 800)
+// My fonts
+$font-family-header: "Noto Serif Display", serif; //(700, 800, 900)
+
+/****** COLORS ******/
+// Bootstrap overrides
+$primary: hsl(153, 67%, 13%); //$green-800
+$secondary: hsl(44, 81%, 51%);
+$body-bg: hsl(300, 100%, 99%);
+$code-color: hsl(50, 85%, 28%);
+// My colors
+$primary-light: hsl(90, 12%, 36%);
+$secondary-dark: hsl(44, 48%, 51%);
+$offwhite-bg: hsl(50, 60%, 98%);
+
+/****** COMPONENTS ******/
+// Boostrap Overrides
+$input-btn-focus-width: 0.125rem;
+// BS Navbar variables
+$navbar-dark-brand-color: $secondary;
+$navbar-dark-brand-hover-color: $secondary;
+$navbar-dark-color: $secondary;
+$navbar-dark-hover-color: $secondary-dark;
+$nav-link-padding-y: 1rem;
+$nav-link-font-size: 1.563rem;
+
+// BS Carousel 
+$carousel-control-color: $secondary;
+$carousel-control-width: 10%;
+$carousel-control-icon-width: 2rem;
+$carousel-control-opacity: 1;
+$carousel-indicator-active-bg:$secondary;
+
+/****** SPACING ******/
+$spacing-15: 15px;
+

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexandra Akinyemi | Front End Developer</title>
+
+    <!-- Bootstrap CSS stylesheet -->
+
+    <!----------- Custom SASS Stylesheets ----------->
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./scss/styles.scss" />
+    <!----------- Google Fonts ----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700;800;900&family=Noto+Serif:wght@700&family=Raleway:ital,wght@0,600;0,700;0,800;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!----------- Favicon Link ----------->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="100x100"
+      href="Images/portfolio-favicon.png"
+    />
+    <!----------- Font Awesome ----------->
+    <script
+      src="https://kit.fontawesome.com/aabdb7c1a3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <header>
+    <!------------------------------------ START OF NAVIGATION BAR----------------------------->
+    <nav
+      class="navbar navbar-expand-lg bg-primary navbar-dark d-flex flex-lg-column px-7 fixed-top"
+    >
+      <!-- Logo -->
+      <a class="navbar-brand m-0" href="/#index.html">A</a>
+      <!-- Hamburger button that toggles navbar -->
+      <button
+        class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around border-0"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="toggler-icon top-bar p0"></span>
+        <span class="toggler-icon middle-bar p0"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse bg-primary" id="navbarNav">
+        <ul class="navbar-nav d-flex flex-lg-column text-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/#welcome">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#contact">Contact</a>
+          </li>
+          <div class="nav-icons d-flex justify-content-center mx-auto pt-10">
+            <div class="px-2">
+              <a
+                href="https://www.linkedin.com/in/alexandraakinyemi/"
+                target="_blank"
+              >
+                <!-- https://icons8.com/icon/62925/linkedin-circled LinkedIn Circled icon by Icons8 -->
+                <img
+                  src="./images/icon-linkedin-yellow.svg"
+                  alt="Linkedin icon"
+                  width="40"
+                  height="40"
+                  class="social-icons"
+                />
+              </a>
+            </div>
+            <div class="px-2">
+              <a href="https://github.com/AOA19" target="_blank">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <img
+                  src="./images/icon-github-yellow.svg"
+                  alt="Github icon"
+                  width="40"
+                  height="40"
+                  class="social-icons"
+                />
+              </a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <!------------------------------------ END OF NAVIGATION BAR------------------------------->
+  </header>
+  <body>
+    <!-------------------------------------------------- MAIN CONTENT ------------------------------------------>
+    <main class="ps-lg-14 ps-xl-16">
+      <!-------------------------- PROJECT HEADER ----------------------->
+      <section class="project-header container">
+        <div
+          class="project-header__title border-bottom border-secondary border-4 pt-5 mx-md-14 mx-xxl-20"
+        >
+          <h1 class="text-center">Cacao & Chocolate Product Page</h1>
+        </div>
+        <div class="row">
+          <div class="project-header__link col text-end pe-lg-4">
+            <a
+              target="_blank"
+              href="https://aoa19.github.io/C-C-Product-Page/index.html"
+              class="project-header__link-view"
+              >View Site</a
+            >
+          </div>
+          <div class="project-header__link col text-start ps-lg-4">
+            <a
+              target="_blank"
+              href="https://github.com/AOA19/C-C-Product-Page"
+              class="project-header__link-view"
+              >View Code</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-------------------------- PROJECT PURPOSE ----------------------->
+      <section class="project-purpose pt-8 px-4 px-md-7 px-xxl-12">
+        <div class="ps-lg-6">
+          <div
+            class="subsection-header text-center d-flex justify-content-center justify-content-md-start"
+          >
+            <h2>Project Purpose and Goal</h2>
+          </div>
+          <!-- Project purpose paragraph -->
+          <div class="project-txt pe-lg-9">
+            <p>
+              This project was completed as a
+              <a
+                target="_blank"
+                href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page"
+                class="fcc-link fw-bold"
+                >FreeCodeCamp</a
+              >
+              certification project, built with HTML, CSS, and Vanilla
+              JavaScript. This project aimed to build a landing page that
+              markets a product of my choice. I was able to incorporate the
+              knowledge I learned from the FreeCodeCamp tutorials to build this
+              landing page.
+            </p>
+            <p>
+              I wanted to take this project a step further by incorporating a
+              shopping cart feature built with JavaScript. The user will be able
+              to add items to their shopping cart, increase the quantity of the
+              items, remove items from the cart, and see their total amount. I
+              initially built this landing page without the shopping cart, but
+              the page lacked complexity. This was a good opportunity for me to
+              use JavaScript to create a feature commonly used on product
+              websites.
+            </p>
+          </div>
+          <!-- Project image one -->
+          <div class="project-screenshot d-flex justify-content-center pt-7">
+            <img
+              src="./images/project_c&c-top.png"
+              alt="Top half of cacao and chocolate home page"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+      <!-------------------------- PROBLEMS & THOUGHT PROCESS SECTION ----------------------->
+      <section class="problems-thoughts pt-8 px-4 px-md-7 px-xxl-12">
+        <div class="ps-lg-6">
+          <div
+            class="subsection-header text-center d-flex justify-content-center justify-content-md-start"
+          >
+            <h2>Problems and Thought Process</h2>
+          </div>
+          <!-- Problems and thought process paragraph -->
+          <div class="project-txt pe-lg-9">
+            <p>
+              While working on the shopping cart functionality, I ran into a
+              couple of issues along the way. For example, removing added items
+              from the cart when the remove button was clicked. When I initially
+              wrote the function intended to remove an item at a time from the
+              cart, everything inside the cart would be deleted. Which caused an
+              error to occur.
+            </p>
+            <p>
+              So I went though my code to see what I was missing. I realized
+              that the function I wrote was trying to access multiple remove
+              buttons for each item, but there is technically only one remove
+              button per item row. So from there I just accessed the first
+              index, and that was able to fix the problem. So I went through my
+              code to see what I was missing. I realized that the function I
+              wrote was trying to access multiple remove buttons for each item,
+              but there is technically only one remove button per item row. So
+              from there I accessed the first index, and that was able to fix
+              the problem.
+            </p>
+            <p>
+              Another difficulty I dealt with while building the project was
+              designing the look of the landing page. Unlike other projects I've
+              completed, I wasn't given a design file that I would replicate in
+              code. With this project, I was given specific HTML elements that
+              needed to be in my code, but the design of the page was up to me.
+              I chose to use Figma to create a mockup of my design before I
+              started coding it.
+            </p>
+            <p>
+              Creating a design from scratch was a challenge because I would go
+              back and forth on how I wanted the overall page to look like.
+              Using Figma to create my design was a fun experience because it
+              helped me hone my design skills.
+            </p>
+          </div>
+          <!-- Project image two -->
+          <div class="project-gif d-flex justify-content-center pt-7">
+            <img
+              src="./images/project_c&c-cart.gif"
+              class="img-fluid"
+              alt="Gif of cacao & chocolate shopping cart"
+            />
+          </div>
+          <!-- Project image three -->
+          <div class="project-screenshot d-flex justify-content-center pt-7">
+            <img
+              src="./images/project_c&c-bottom.png"
+              class="img-fluid"
+              alt="Bottom half of cacao & chocolate landing page"
+            />
+          </div>
+        </div>
+      </section>
+      <!-------------------------- LESSON LEARNED SECTION ----------------------->
+      <section class="project-purpose pt-8 px-4 px-md-7 px-xxl-12">
+        <div class="ps-lg-6">
+          <div
+            class="subsection-header text-center d-flex justify-content-center justify-content-md-start"
+          >
+            <h2>Lessons Learned</h2>
+          </div>
+          <!-- Project purpose paragraph -->
+          <div class="project-txt pe-lg-9">
+            <p>
+              I learned that building off a design file, whether it's someone
+              else's design or my own, is definitely the easiest, and preferred
+              way for me to code. Having a design file allows me to practice
+              building pixel-perfect sites.
+            </p>
+            <p>
+              I learned a lot about JavaScript methods as well, and I used
+              various ones throughout my code. Some methods I was familiar with,
+              while others were new to me. JavaScript's methods were very
+              important to the functionality of the shopping cart. Each one that
+              I used was unfamiliar to me, I made sure to do thorough research
+              on it, so I had a better understanding of what the specific method
+              was doing in my code.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-------------------------- OTHER PROJECTS SECTION ----------------------->
+      <section class="other-projects pt-8 px-xl-10">
+        <div class="subsection-header text-center">
+          <h2>Other Projects</h2>
+        </div>
+        <!-- Projects Carousel -->
+        <div class="container py-7">
+          <div
+            id="carouselIndicators"
+            class="carousel slide border border-secondary border-2 rounded-4 py-6 px-3"
+            data-bs-ride="true"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <!-- Carousel One -->
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img
+                  src="./images/project_baseApparel-macbook.png"
+                  alt="Screenshot of base apparel homepage on a macbook"
+                  class="d-block w-100"
+                />
+                <p class="carousel-title text-center">
+                  Base Apparel Coming Soon Page
+                </p>
+                <!-- View project page link -->
+                <div class="project__btn-div text-center my-6">
+                  <a
+                    href="baseapparel-page.html"
+                    aria-label="View base apparel project page"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+              <!-- Carousel Two -->
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./images/project_sunnyside-macbook.png"
+                  alt="Screenshot sunnyside agency landing page on a macbook"
+                  class="d-block w-100"
+                />
+                <p class="carousel-title text-center">
+                  Sunnyside Agency Landing Page
+                </p>
+                <!-- View project page link -->
+                <div class="project__btn-div text-center my-6">
+                  <a
+                    href="sunnyside-page.html"
+                    aria-label="View sunnyside project page"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+              <!-- Carousel Three -->
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./images/project_tip-calculator-macbook.png"
+                  alt="Screenshot of sunnyside project homepage on a macbook"
+                  class="d-block w-100"
+                />
+                <p class="carousel-title text-center">
+                  Splitter Tip Calculator
+                </p>
+                <!-- View project page link -->
+                <div class="project__btn-div text-center my-6">
+                  <a
+                    href="tipcalc-page.html"
+                    aria-label="View tip calculator project page"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Previous button -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <!-- Next button -->
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!----------------------------------------- START OF FOOTER ---------------------------------->
+      <footer class="footer-section">
+        <div class="container py-4">
+          <p class="copyright d-flex justify-content-center text-center m-0">
+            © 2022 Designed & Developed by
+            <a
+              href="https://github.com/AOA19"
+              aria-label="Go to github profile"
+              class="github-link"
+              >AOA19</a
+            >
+          </p>
+        </div>
+      </footer>
+    </main>
+    <!----------------------------------------- END OF FOOTER ---------------------------------->
+    <!----- JavaScript Links ----->
+    <script type="module" src="./js/main.js"></script>
+    <script src="./js/mobileNavBar.js"></script>
+  </body>
+</html>

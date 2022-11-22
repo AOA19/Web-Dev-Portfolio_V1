@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexandra Akinyemi | Front End Developer</title>
+
+    <!-- Bootstrap CSS stylesheet -->
+
+    <!----------- Custom SASS Stylesheets ----------->
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./scss/styles.scss" />
+    <!----------- Google Fonts ----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700;800;900&family=Noto+Serif:wght@700&family=Raleway:ital,wght@0,600;0,700;0,800;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!----------- Favicon Link ----------->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="100x100"
+      href="Images/portfolio-favicon.png"
+    />
+    <!----------- Font Awesome ----------->
+    <script
+      src="https://kit.fontawesome.com/aabdb7c1a3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <header>
+    <!------------------------------------ START OF NAVIGATION BAR----------------------------->
+    <nav
+      class="navbar navbar-expand-lg bg-primary navbar-dark d-flex flex-lg-column px-7 fixed-top"
+    >
+      <!-- Logo -->
+      <a class="navbar-brand m-0" href="#index.html">A</a>
+      <!-- Hamburger button that toggles navbar -->
+      <button
+        class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around border-0"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="toggler-icon top-bar p0"></span>
+        <span class="toggler-icon middle-bar p0"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse bg-primary" id="navbarNav">
+        <ul class="navbar-nav d-flex flex-lg-column text-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#welcome">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <div class="nav-icons d-flex justify-content-center mx-auto pt-10">
+            <div class="px-2">
+              <a
+                href="https://www.linkedin.com/in/alexandraakinyemi/"
+                target="_blank"
+              >
+                <!-- https://icons8.com/icon/62925/linkedin-circled LinkedIn Circled icon by Icons8 -->
+                <img
+                  src="./images/icon-linkedin-yellow.svg"
+                  alt="Linkedin icon"
+                  width="40"
+                  height="40"
+                  class="social-icons"
+                />
+              </a>
+            </div>
+            <div class="px-2">
+              <a href="https://github.com/AOA19" target="_blank">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <img
+                  src="./images/icon-github-yellow.svg"
+                  alt="Github icon"
+                  width="40"
+                  height="40"
+                  class="social-icons"
+                />
+              </a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <!------------------------------------ END OF NAVIGATION BAR------------------------------->
+  </header>
+  <body>
+    <!-------------------------------------------------- MAIN CONTENT ------------------------------------------>
+    <main class="container-fluid ps-lg-14 ps-xl-16 g-0" id="main-content">
+      <!----------------------------------------- WELCOME SECTION ---------------------------------->
+      <section class="welcome-section" id="welcome">
+        <!-- Title -->
+        <div
+          class="container title d-flex flex-column justify-content-center align-items-center g-0"
+        >
+          <div class="title-box px-3 py-4 mx-3 mt-md-7 rounded-3">
+            <h1 class="myName text-center">Alexandra Akinyemi</h1>
+            <h2 class="myRole fw-normal fst-italic text-center">
+              Front-End Web Developer
+            </h2>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------- END OF WELCOME SECTION ------------------------------->
+
+      <!----------------------------------------- ABOUT ME SECTION ---------------------------------->
+      <section class="about-section py-9" id="about">
+        <div
+          class="d-flex justify-content-center justify-content-md-start ps-md-10 ps-xl-12"
+        >
+          <h3
+            class="section-header text-center border-bottom border-secondary border-5"
+          >
+            About Me
+          </h3>
+        </div>
+        <!-- Profile image div -->
+        <div class="container">
+          <div class="row">
+            <div
+              class="about-img col-12 col-md-6 col-lg-5 col-xxl-4 mx-auto my-auto"
+            >
+              <img
+                class="profile-img img-fluid rounded-circle"
+                src="./images/profile-image.jpg"
+                alt="Profile picture of Alexandra Akinyemi"
+              />
+            </div>
+            <!-- About me description -->
+            <div class="about-desc col-12 col-lg-7 px-4">
+              <p class="fw-bold fst-italic text-decoration-underline">
+                A little about me...
+              </p>
+              <p>
+                I am a self-taught front-end web developer with a Bachelor of
+                Science in Electrical Engineering from the University of
+                Massachusetts Lowell.
+              </p>
+              <p>
+                As a web developer, I am able to use my technical knowledge to
+                solve problems through code and explore my creative side by
+                building eye-catching user-friendly websites, and applications.
+              </p>
+              <p>
+                When I'm not coding, you can find me singing my heart out during
+                karaoke, playing soccer, and tennis with my family, or
+                satisfying my sweet tooth by baking a new recipe.
+              </p>
+              <p>
+                I'm excited to make the transition, and continue sharpening my
+                skills with the right company! If you're interested in working
+                together, feel free to get in contact
+                <a
+                  href="#contact"
+                  aria-label="Scroll to contact section"
+                  class="contact-link"
+                  >here!</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!----- Skills section ----->
+        <div class="pt-lg-8">
+          <div class="d-flex justify-content-center">
+            <h3
+              class="section-header text-center border-bottom border-secondary border-5"
+            >
+              My Skills
+            </h3>
+          </div>
+          <div class="skills-section container">
+            <div
+              class="row row-cols-2 row-cols-sm-3 px-6 px-lg-10 px-xl-19 pt-4"
+            >
+              <!-- HTML Skill -->
+              <div class="skill skill--html col">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  style="fill: #e7b11b"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"
+                  />
+                </svg>
+                <p class="skill__name">Html</p>
+              </div>
+              <!-- CSS Skill -->
+              <div class="skill skill--css col">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 384 512"
+                  style="fill: #e7b11b"
+                >
+                  <path
+                    d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"
+                  />
+                </svg>
+                <p class="skill__name">CSS</p>
+              </div>
+              <!-- JavaScript Skill -->
+
+              <div class="skill skill--js col">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 448 512"
+                  style="fill: #e7b11b"
+                >
+                  <path
+                    d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
+                  />
+                </svg>
+                <p class="skill__name">JavaScript</p>
+              </div>
+              <!-- Bootstrap Skill -->
+              <div class="skill skill--bootstrap col">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 576 512"
+                  style="fill: #e7b11b"
+                >
+                  <path
+                    d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z"
+                  />
+                </svg>
+                <p class="skill__name">Bootstrap</p>
+              </div>
+              <!-- Git Skill -->
+              <div class="skill skill--git col">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 448 512"
+                  style="fill: #e7b11b"
+                >
+                  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"
+                  />
+                </svg>
+                <p class="skill__name">Git</p>
+              </div>
+              <!-- Sass skill -->
+              <div class="skill skill-sass flex-column">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 640 512"
+                  style="fill: #e7b11b"
+                >
+                  <path
+                    d="M301.84 378.92c-.3.6-.6 1.08 0 0zm249.13-87a131.16 131.16 0 0 0-58 13.5c-5.9-11.9-12-22.3-13-30.1-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.3-6.7-24 2.5-25.29 5.9a122.83 122.83 0 0 0-5.3 19.1c-2.3 11.7-25.79 53.5-39.09 75.3-4.4-8.5-8.1-16-8.9-22-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.29-6.7-24 2.5-25.3 5.9-2.7 11.4-5.3 19.1-33.89 77.3-42.08 95.4c-4.2 9.2-7.8 16.6-10.4 21.6-.4.8-.7 1.3-.9 1.7.3-.5.5-1 .5-.8-2.2 4.3-3.5 6.7-3.5 6.7v.1c-1.7 3.2-3.6 6.1-4.5 6.1-.6 0-1.9-8.4.3-19.9 4.7-24.2 15.8-61.8 15.7-63.1-.1-.7 2.1-7.2-7.3-10.7-9.1-3.3-12.4 2.2-13.2 2.2s-1.4 2-1.4 2 10.1-42.4-19.39-42.4c-18.4 0-44 20.2-56.58 38.5-7.9 4.3-25 13.6-43 23.5-6.9 3.8-14 7.7-20.7 11.4-.5-.5-.9-1-1.4-1.5-35.79-38.2-101.87-65.2-99.07-116.5 1-18.7 7.5-67.8 127.07-127.4 98-48.8 176.35-35.4 189.84-5.6 19.4 42.5-41.89 121.6-143.66 133-38.79 4.3-59.18-10.7-64.28-16.3-5.3-5.9-6.1-6.2-8.1-5.1-3.3 1.8-1.2 7 0 10.1 3 7.9 15.5 21.9 36.79 28.9 18.7 6.1 64.18 9.5 119.17-11.8 61.78-23.8 109.87-90.1 95.77-145.6C386.52 18.32 293-.18 204.57 31.22c-52.69 18.7-109.67 48.1-150.66 86.4-48.69 45.6-56.48 85.3-53.28 101.9 11.39 58.9 92.57 97.3 125.06 125.7-1.6.9-3.1 1.7-4.5 2.5-16.29 8.1-78.18 40.5-93.67 74.7-17.5 38.8 2.9 66.6 16.29 70.4 41.79 11.6 84.58-9.3 107.57-43.6s20.2-79.1 9.6-99.5c-.1-.3-.3-.5-.4-.8 4.2-2.5 8.5-5 12.8-7.5 8.29-4.9 16.39-9.4 23.49-13.3-4 10.8-6.9 23.8-8.4 42.6-1.8 22 7.3 50.5 19.1 61.7 5.2 4.9 11.49 5 15.39 5 13.8 0 20-11.4 26.89-25 8.5-16.6 16-35.9 16-35.9s-9.4 52.2 16.3 52.2c9.39 0 18.79-12.1 23-18.3v.1s.2-.4.7-1.2c1-1.5 1.5-2.4 1.5-2.4v-.3c3.8-6.5 12.1-21.4 24.59-46 16.2-31.8 31.69-71.5 31.69-71.5a201.24 201.24 0 0 0 6.2 25.8c2.8 9.5 8.7 19.9 13.4 30-3.8 5.2-6.1 8.2-6.1 8.2a.31.31 0 0 0 .1.2c-3 4-6.4 8.3-9.9 12.5-12.79 15.2-28 32.6-30 37.6-2.4 5.9-1.8 10.3 2.8 13.7 3.4 2.6 9.4 3 15.69 2.5 11.5-.8 19.6-3.6 23.5-5.4a82.2 82.2 0 0 0 20.19-10.6c12.5-9.2 20.1-22.4 19.4-39.8-.4-9.6-3.5-19.2-7.3-28.2 1.1-1.6 2.3-3.3 3.4-5C434.8 301.72 450.1 270 450.1 270a201.24 201.24 0 0 0 6.2 25.8c2.4 8.1 7.09 17 11.39 25.7-18.59 15.1-30.09 32.6-34.09 44.1-7.4 21.3-1.6 30.9 9.3 33.1 4.9 1 11.9-1.3 17.1-3.5a79.46 79.46 0 0 0 21.59-11.1c12.5-9.2 24.59-22.1 23.79-39.6-.3-7.9-2.5-15.8-5.4-23.4 15.7-6.6 36.09-10.2 62.09-7.2 55.68 6.5 66.58 41.3 64.48 55.8s-13.8 22.6-17.7 25-5.1 3.3-4.8 5.1c.5 2.6 2.3 2.5 5.6 1.9 4.6-.8 29.19-11.8 30.29-38.7 1.6-34-31.09-71.4-89-71.1zm-429.18 144.7c-18.39 20.1-44.19 27.7-55.28 21.3C54.61 451 59.31 421.42 82 400c13.8-13 31.59-25 43.39-32.4 2.7-1.6 6.6-4 11.4-6.9.8-.5 1.2-.7 1.2-.7.9-.6 1.9-1.1 2.9-1.7 8.29 30.4.3 57.2-19.1 78.3zm134.36-91.4c-6.4 15.7-19.89 55.7-28.09 53.6-7-1.8-11.3-32.3-1.4-62.3 5-15.1 15.6-33.1 21.9-40.1 10.09-11.3 21.19-14.9 23.79-10.4 3.5 5.9-12.2 49.4-16.2 59.2zm111 53c-2.7 1.4-5.2 2.3-6.4 1.6-.9-.5 1.1-2.4 1.1-2.4s13.9-14.9 19.4-21.7c3.2-4 6.9-8.7 10.89-13.9 0 .5.1 1 .1 1.6-.13 17.9-17.32 30-25.12 34.8zm85.58-19.5c-2-1.4-1.7-6.1 5-20.7 2.6-5.7 8.59-15.3 19-24.5a36.18 36.18 0 0 1 1.9 10.8c-.1 22.5-16.2 30.9-25.89 34.4z"
+                  />
+                </svg>
+                <p class="skill__name">Sass</p>
+              </div>
+              <!-- Web Accessibilty Skill -->
+              <div class="skill skill--accessible col">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 512 512"
+                  style="fill: #e7b11b"
+                >
+                  <path
+                    d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM256 80c22.09 0 40 17.91 40 40S278.1 160 256 160S216 142.1 216 120S233.9 80 256 80zM374.6 215.1L315.3 232C311.6 233.1 307.8 233.6 304 234.4v62.32l30.64 87.34c4.391 12.5-2.188 26.19-14.69 30.59C317.3 415.6 314.6 416 312 416c-9.906 0-19.19-6.188-22.64-16.06l-25.85-70.65c-2.562-7.002-12.46-7.002-15.03 0l-25.85 70.65C219.2 409.8 209.9 416 200 416c-2.641 0-5.312-.4375-7.953-1.344c-12.5-4.406-19.08-18.09-14.69-30.59L208 296.7V234.4C204.2 233.6 200.4 233.1 196.7 232L137.4 215.1C124.7 211.4 117.3 198.2 120.9 185.4S137.9 165.2 150.6 168.9l59.25 16.94c30.17 8.623 62.15 8.623 92.31 0l59.25-16.94c12.7-3.781 26.02 3.719 29.67 16.47C394.7 198.2 387.3 211.4 374.6 215.1z"
+                  />
+                </svg>
+                <p class="skill__name">Web Accessibilty</p>
+              </div>
+              <!-- Figma Skill -->
+              <div class="skill skill--figma col">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 384 512"
+                  style="fill: #e7b11b"
+                >
+                  <path
+                    d="M14 95.7924C14 42.8877 56.8878 0 109.793 0H274.161C327.066 0 369.954 42.8877 369.954 95.7924C369.954 129.292 352.758 158.776 326.711 175.897C352.758 193.019 369.954 222.502 369.954 256.002C369.954 308.907 327.066 351.795 274.161 351.795H272.081C247.279 351.795 224.678 342.369 207.666 326.904V415.167C207.666 468.777 163.657 512 110.309 512C57.5361 512 14 469.243 14 416.207C14 382.709 31.1945 353.227 57.2392 336.105C31.1945 318.983 14 289.5 14 256.002C14 222.502 31.196 193.019 57.2425 175.897C31.196 158.776 14 129.292 14 95.7924ZM176.288 191.587H109.793C74.2172 191.587 45.3778 220.427 45.3778 256.002C45.3778 291.44 73.9948 320.194 109.381 320.416C109.518 320.415 109.655 320.415 109.793 320.415H176.288V191.587ZM207.666 256.002C207.666 291.577 236.505 320.417 272.081 320.417H274.161C309.737 320.417 338.576 291.577 338.576 256.002C338.576 220.427 309.737 191.587 274.161 191.587H272.081C236.505 191.587 207.666 220.427 207.666 256.002ZM109.793 351.795C109.655 351.795 109.518 351.794 109.381 351.794C73.9948 352.015 45.3778 380.769 45.3778 416.207C45.3778 451.652 74.6025 480.622 110.309 480.622C146.591 480.622 176.288 451.186 176.288 415.167V351.795H109.793ZM109.793 31.3778C74.2172 31.3778 45.3778 60.2173 45.3778 95.7924C45.3778 131.368 74.2172 160.207 109.793 160.207H176.288V31.3778H109.793ZM207.666 160.207H274.161C309.737 160.207 338.576 131.368 338.576 95.7924C338.576 60.2173 309.737 31.3778 274.161 31.3778H207.666V160.207Z"
+                  />
+                </svg>
+                <p class="skill__name">Figma</p>
+              </div>
+              <!-- Repsonsive Design Skill -->
+              <div class="skill skill--responsive col-12">
+                <!-- https://www.iconfinder.com/search?q=responsive%20design&price=free By: Piksart -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 22.105 22.104"
+                  style="fill: #e7b11b"
+                >
+                  <g data-name="Layer 2" id="Layer_2">
+                    <g data-name="Layer 1" id="Layer_1-2">
+                      <path
+                        class="cls-1"
+                        d="M17.276,20.319a.335.335,0,0,1,0,.67A.335.335,0,0,1,17.276,20.319Zm1.843.67a.335.335,0,0,0,0-.67A.335.335,0,0,0,19.119,20.989ZM18.2,12.726a.336.336,0,0,0,0,.671A.336.336,0,0,0,18.2,12.726Zm3.907.112v8.039A1.229,1.229,0,0,1,20.877,22.1H15.518a1.228,1.228,0,0,1-1.227-1.227V12.838a1.229,1.229,0,0,1,1.227-1.228h5.359A1.23,1.23,0,0,1,22.105,12.838Zm-.669,7.033H14.96c.048.5-.233,1.543.558,1.564h5.359a.56.56,0,0,0,.559-.558Zm0-7.033a.559.559,0,0,0-.559-.558H15.518a.558.558,0,0,0-.558.558V19.2h6.476ZM13.284,22.1H8.373a1.23,1.23,0,0,1-1.228-1.228V5.693A1.23,1.23,0,0,1,8.373,4.465h12.5a1.23,1.23,0,0,1,1.228,1.228v4.912a.335.335,0,0,1-.67,0V7.367H7.815V19.2h5.469a.335.335,0,1,1,0,.669H7.815c.047.5-.233,1.543.558,1.563h4.911A.335.335,0,0,1,13.284,22.1ZM7.815,6.7h13.62c-.047-.5.232-1.542-.558-1.562H8.373a.558.558,0,0,0-.558.558Zm6.81-1.116a.335.335,0,0,0,0,.67A.335.335,0,0,0,14.625,5.581ZM10.718,20.653a.335.335,0,0,0,.669,0A.335.335,0,0,0,10.718,20.653Zm-4.578-4.8a.335.335,0,0,0,0-.67H.67V1.228A.558.558,0,0,1,1.228.67H20.876a.559.559,0,0,1,.559.558V3.46a.335.335,0,0,0,.669,0V1.228A1.23,1.23,0,0,0,20.876,0H1.228A1.23,1.23,0,0,0,0,1.228V17.75a1.23,1.23,0,0,0,1.228,1.228H4.019v2.457H.335a.335.335,0,1,0,0,.669H6.14a.335.335,0,1,0,0-.669H4.688V18.978H6.139a.335.335,0,0,0,0-.669H1.228A.559.559,0,0,1,.67,17.75v-1.9Z"
+                        data-name="responsive design"
+                        id="responsive_design"
+                      />
+                    </g>
+                  </g>
+                </svg>
+                <p class="skill__name">Repsonsive Design</p>
+              </div>
+            </div>
+            <!----- End of skill section ----->
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------- END OF ABOUT ME SECTION ----------------------------->
+
+      <!----------------------------------------- PROJECTS SECTION ---------------------------------->
+      <section class="projects-section py-8" id="projects">
+        <div
+          class="d-flex justify-content-center justify-content-md-start ps-md-10 ps-xl-12"
+        >
+          <h3
+            class="section-header text-center border-bottom border-secondary border-5"
+          >
+            Projects
+          </h3>
+        </div>
+        <div class="container px-6">
+          <!------- Sunnyside Project ------->
+          <div
+            class="project row flex-row-reverse py-4 mb-9 mx-lg-7 mx-xl-12 mx-xxl-17 border border-2 border-secondary rounded-4"
+          >
+            <!-- Project image -->
+            <div class="col-md-5 my-auto">
+              <img
+                src="./images/project_sunnyside-macbook.png"
+                alt="Screenshot of sunnyside project homepage on a macbook"
+                class="project__img img-fluid"
+              />
+            </div>
+            <!-- Project description -->
+            <div class="col-md-7">
+              <div class="project__details">
+                <h4 class="project__name text-center mt-3">
+                  Sunnyside Agency Landing Page
+                </h4>
+                <p class="project__descr mt-3 px-lg-4">
+                  This is the landing page for the Sunnyside brand agency. They
+                  specialize in growing your brand quickly and making your brand
+                  as successful as possible. By providing excellent services,
+                  and overall great customer service.
+                </p>
+              </div>
+              <!-- Technology Used -->
+              <div
+                class="project__tech d-flex justify-content-between justify-content-md-evenly"
+              >
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              <!-- View project page link -->
+              <div class="project__btn-div text-center my-4">
+                <a
+                  href="sunnyside-page.html"
+                  aria-label="View sunnyside project page"
+                  class="primary-btn project__btn-link"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+          <!------- Tip Calculator Project ------->
+          <div
+            class="project row flex-row-reverse py-4 mb-9 mx-lg-7 mx-xl-12 mx-xxl-17 border border-2 border-secondary rounded-4"
+          >
+            <!-- Project image -->
+            <div class="col-md-5 my-auto">
+              <img
+                src="./images/project_tip-calculator-macbook.png"
+                alt="Screenshot of tip calcualtor project homepage on a macbook"
+                class="project__img img-fluid"
+              />
+            </div>
+            <!-- Project description -->
+            <div class="col-md-7">
+              <div class="project__details">
+                <h4 class="project__name text-center mt-3">
+                  Splitter Tip Calculator
+                </h4>
+                <p class="project__descr mt-3 px-lg-4">
+                  Splitter is a tip calculator app that will calculate the tip
+                  amount per person, and the total amount per person based on
+                  the bill amount, tip percentage, and the number of people.
+                </p>
+              </div>
+              <!-- Technology used -->
+              <div
+                class="project__tech d-flex justify-content-between justify-content-md-evenly"
+              >
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              <!-- View project page link -->
+              <div class="project__btn-div text-center my-4">
+                <a
+                  href="tipcalc-page.html"
+                  aria-label="View tip calculator project page"
+                  class="primary-btn project__btn-link"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+          <!------- Cacao and Chocolate Project ------->
+          <div
+            class="project row flex-row-reverse py-4 mb-9 mx-lg-7 mx-xl-12 mx-xxl-17 border border-2 border-secondary rounded-4"
+          >
+            <!-- Project image -->
+            <div class="col-md-5 my-auto">
+              <img
+                src="./images/project_c&c-macbook.png"
+                alt="Screenshot of cacao and chocolate homepage on a macbook"
+                class="project__img img-fluid"
+              />
+            </div>
+            <!-- Project description -->
+            <div class="col-md-7">
+              <div class="project__details">
+                <h4 class="project__name text-center mt-3">
+                  Cacao & Chocolate Product Page
+                </h4>
+                <p class="project__descr mt-3 px-lg-4">
+                  Have a love for gourmet chocolates? Check out C&C's various
+                  gourmet chocolates on their online store. Shop, add items to
+                  your cart, and see your total.
+                </p>
+              </div>
+              <!-- Technology used -->
+              <div
+                class="project__tech d-flex justify-content-between justify-content-md-evenly"
+              >
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              <!-- View project page link -->
+              <div class="project__btn-div text-center my-4">
+                <a
+                  href="cc-page.html"
+                  aria-label="View cacao and chocolate project page"
+                  class="primary-btn project__btn-link"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+          <!------- Base apparel project ------->
+          <div
+            class="project row flex-row-reverse py-4 mx-lg-7 mx-xl-12 mx-xxl-17 border border-2 border-secondary rounded-4"
+          >
+            <!-- Project Image -->
+            <div class="col-md-5 my-auto">
+              <img
+                src="./images/project_baseApparel-macbook.png"
+                alt="Screenshot of base apparel homepage on a macbook"
+                class="project__img img-fluid"
+              />
+            </div>
+            <!-- Project Description -->
+            <div class="col-md-7">
+              <div class="project__details">
+                <h4 class="project__name text-center mt-3">
+                  Base Apparel Coming Soon Page
+                </h4>
+                <p class="project__descr mt-3 px-lg-4">
+                  This is the coming soon page for the Base Apparel clothing
+                  company. While this up-and-coming clothing brand is currently
+                  under construction, shoppers can provide their email addresses
+                  to the site to stay up-to-date on any announcements.
+                </p>
+              </div>
+              <!-- Technology used -->
+              <div
+                class="project__tech d-flex justify-content-between justify-content-md-evenly"
+              >
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+              <!-- View project page link -->
+              <div class="project__btn-div text-center my-4">
+                <a
+                  href="baseapparel-page.html"
+                  aria-label="View base apparel project page"
+                  class="primary-btn project__btn-link"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+          <!----------------------------------- END OF PROJECTS SECTION ---------------------------->
+        </div>
+      </section>
+      <!----------------------------------------- CONTACT SECTION ---------------------------------->
+      <section class="contact-section py-8" id="contact">
+        <div
+          class="d-flex justify-content-center justify-content-md-start ps-md-10 ps-xl-12"
+        >
+          <h3
+            class="section-header text-center border-bottom border-secondary border-5"
+          >
+            Contact Me
+          </h3>
+        </div>
+        <div class="px-lg-12 px-xxl-20">
+          <div class="contact__container container rounded-3 g-0">
+            <p class="contact__txt text-center px-md-10">
+              Feel free to reach out to me if you're interested in working
+              together, or just want to connect! You can also email me
+              <a href="mailto:aakinyemi19@gmail.com" class="text-decoration-underline my-email">here.</a>
+            </p>
+            <!------ Contact form ------>
+            <form
+              action="https://formsubmit.co/aakinyemi19@gmail.com"
+              method="POST"
+              class="contact__form row pt-7"
+            >
+              <!-- Honeypot -->
+              <input type="text" name="_honey" style="display: none" />
+              <!-- Disable Captcha -->
+              <input type="hidden" name="_captcha" value="false" />
+              <!-- Use table template -->
+              <input type="hidden" name="_template" value="table" />
+              <!-- Name input -->
+              <div class="col-md-6 pb-4">
+                <label for="fullName" class="form-label"> Full Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control border border-primary border-2"
+                  id="fullName"
+                  required
+                />
+              </div>
+              <!-- Email Input -->
+              <div class="col-md-6 pb-4">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control border border-primary border-2"
+                  id="email"
+                  required
+                />
+              </div>
+              <!-- Subject Input -->
+              <div class="col-sm-12 pb-4">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  name="subject"
+                  class="form-control border border-primary border-2"
+                  id="subject"
+                  required
+                />
+              </div>
+              <!-- Message Input -->
+              <div class="col-sm-12 pb-4">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control border border-primary border-2"
+                  name="message"
+                  id="message"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+              <!-- Submit button -->
+              <div class="col-sm-12 d-flex justify-content-center">
+                <button type="submit" class="btn primary-btn">
+                  Send Message
+                </button>
+              </div>
+            </form>
+            <!----- End of form ----->
+          </div>
+        </div>
+      </section>
+      <!----------------------------------------- END OF CONTACT SECTION ---------------------------------->
+      <!----------------------------------------- START OF FOOTER ---------------------------------->
+      <footer class="footer-section">
+        <div class="container py-4 m-md-0">
+          <p class="copyright d-flex justify-content-center text-center m-0">
+            © 2022 Designed & Developed by
+            <a
+              target="_blank"
+              href="https://github.com/AOA19/Web-Dev-Portfolio_V1"
+              aria-label="Go to github profile"
+              class="copyright-link"
+              >AOA19</a
+            >
+          </p>
+        </div>
+      </footer>
+    </main>
+    <!----------------------------------------- END OF FOOTER ---------------------------------->
+    <!----- JavaScript Links ----->
+    <script type="module" src="./js/main.js"></script>
+    <script src="./js/mobileNavBar.js"></script>
+  </body>
+</html>

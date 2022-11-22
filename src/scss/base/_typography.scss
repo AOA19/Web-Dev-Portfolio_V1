@@ -1,0 +1,22 @@
+h3 {
+  @include font-size(3.125rem);
+  color: $primary;
+  font-family: $font-family-header;
+  margin-bottom: 30px;
+  padding: {
+    top: $spacing-15;
+    bottom: 5px;
+  }
+}
+
+h4 {
+  color: $primary;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: $primary;
+}
+

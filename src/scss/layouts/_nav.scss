@@ -1,0 +1,119 @@
+.navbar-brand {
+  @include font-size(4.375rem);
+  font-family: $font-family-header;
+  font-weight: 800;
+}
+
+//Nav item/link styling
+.nav-item {
+  padding: {
+    top: $spacing-15;
+    bottom: $spacing-15;
+  }
+  @include media-breakpoint-up(lg) {
+    width: 7.5rem;
+  }
+}
+.nav-link {
+  @include font-size(1.5rem);
+  font-family: $font-family-header;
+  font-weight: 800;
+  &:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+  }
+}
+
+//Hamburger menu styling
+.toggler-icon {
+  background-color: $secondary;
+  border-radius: 1px;
+  display: block;
+  height: 3px;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  transform: rotate(0deg);
+  transition: 0.3s ease-in-out;
+  width: 100%;
+}
+
+// State when the hamburger menu is collapsed
+.navbar-toggler.collapsed {
+  .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+  }
+  .middle-bar {
+    display: block;
+    opacity: 1;
+  }
+  .bottom-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+  }
+}
+// State when hamburger menu is clicked and opened
+.navbar-toggler {
+  height: 38px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  width: 20px;
+  .top-bar {
+    margin-top: 0;
+    transform: rotate(135deg);
+  }
+  .middle-bar {
+    display: none;
+    margin-top: 0;
+    opacity: 0;
+  }
+  .bottom-bar {
+    margin-top: 0;
+    transform: rotate(-135deg);
+  }
+}
+
+//****** MEDIA QUERIES ******//
+
+// Full length navbar for large devices
+@include media-breakpoint-up(lg) {
+  .flex-lg-column {
+    height: 100vh;
+    width: 12%;
+  }
+}
+//Nav menu will slide from the left for devices < 992px
+@include media-breakpoint-down(lg) {
+  .navbar-collapse {
+    height: 100%;
+    left: 0;
+    padding: 15px;
+    position: fixed;
+    top: 95px;
+    width: 25%;
+    // For devices between 576px and 992px
+    // @include media-breakpoint-between(sm, lg) {
+    //   top: 90px;
+    // }
+    // For devices less than 576px
+    @include media-breakpoint-down(sm) {
+      width: 35%;
+    }
+  }
+  .navbar-collapse.collapsing {
+    left: -25%;
+    height: 100%;
+    // For devices less than 576px
+    @include media-breakpoint-down(sm) {
+      left: -35%;
+    }
+  }
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 0.2s ease-in-out;
+  }
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 0.3s ease-in-out;
+  }
+}

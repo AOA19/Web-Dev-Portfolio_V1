@@ -1,0 +1,65 @@
+// *** Header Section Styling *** //
+.project-header {
+  h1 {
+    @include font-size(1.875rem);
+    color: $primary;
+    font-family: $font-family-header;
+    font-weight: 900;
+    @include media-breakpoint-down(sm) {
+      font-size: 1.25rem;
+    }
+  }
+  .project-header__link {
+    a {
+      @include font-size(1.313rem);
+      color: $secondary;
+      // font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        color: $secondary-dark;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// *** Other Projects Section Styling *** //
+.other-projects {
+  .container {
+    @include media-breakpoint-up(md) {
+      width: 50%;
+    }
+  }
+}
+
+// *** Project page global styles *** //
+.subsection-header {
+  h2 {
+    color: $primary;
+    font-family: $font-family-header;
+    font-weight: 700;
+  }
+}
+
+.project-txt {
+  padding-top: $spacing-15;
+  a:hover {
+    text-decoration: underline;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 1.125rem;
+  }
+}
+
+.project-screenshot {
+  img {
+    max-width: 75%;
+    box-shadow: 5px 6px 10px rgba(128, 129, 128, 0.15),
+      -5px -6px 10px rgba(128, 129, 128, 0.15);
+    @include media-breakpoint-down(sm) {
+      max-width: 100%;
+    }
+  }
+}

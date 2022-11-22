@@ -1,0 +1,22 @@
+//Custom spacer map
+$custom-spacers: (
+  6: $spacer * 2, //32px
+  7: $spacer * 2.5, //40px
+  8: $spacer * 3.5, //56px
+  9: $spacer * 4, //64px
+  10: $spacer * 5, //80px
+  11: $spacer * 6, //96px
+  12: $spacer * 6.25, //100px
+  13: $spacer * 7, //112px
+  14: $spacer * 7.5, //120px
+  15: $spacer * 8, //128px
+  16: $spacer * 8.75, //140px
+  17: $spacer * 9, //144px
+  18: $spacer *9.375, // 150px
+  19: $spacer * 10, //160px
+  20: $spacer * 12.5 //200px
+);
+
+// Merge of my spacer map with BS spacer map
+$spacers: map-merge($spacers, $custom-spacers);
+

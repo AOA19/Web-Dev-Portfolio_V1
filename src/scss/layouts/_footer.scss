@@ -1,0 +1,13 @@
+.footer-section {
+  background-color: $primary;
+  .copyright {
+    color: $secondary;
+  }
+  .copyright-link {
+    color: $secondary;
+    text-decoration: underline;
+    &:hover {
+      color: $offwhite-bg;
+    }
+  }
+}

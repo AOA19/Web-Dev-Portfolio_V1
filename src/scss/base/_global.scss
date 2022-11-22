@@ -1,0 +1,33 @@
+// Scroll Behavior
+html {
+  scroll-padding-top: 80px;
+  @include media-breakpoint-up(lg) {
+    scroll-padding-top: 20px;
+  }
+}
+
+// Custom scrollbar (horizontal)
+body::-webkit-scrollbar {
+  width: 0.75rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: $primary-light;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $primary;
+  border-radius: 100vw;
+}
+// // Firefox support
+@supports (scrollbar-color: $primary $primary-light) {
+  * {
+    scrollbar-color: $primary $primary-light;
+    scrollbar-width: auto;
+  }
+}
+
+//****** MEDIA QUERIES ******//
+@include media-breakpoint-down(lg) {
+  main {
+    padding-top: 6.25rem;
+  }
+}
