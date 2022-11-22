@@ -1,5 +1,5 @@
 # Dependencies
-.parcel-cache/
+.parcel-cache
 node_modules/
 dist/
 
@@ -10,7 +10,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # OS generated files
-.DS_store
-.DS_Store?
+.DS_Store
+
 #Text files
 *.txt
