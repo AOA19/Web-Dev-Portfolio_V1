@@ -662,16 +662,20 @@
         // function will get executed on click of submit button
         $("#submitBtn").click(function (e) {
           let form = $("#form");
-          let url = form.attr("action");
+          // let url = form.attr("action");
           $.ajax({
-            type: "POST",
-            url: url,
+            method: "POST",
+            url: "https://formsubmit.co/ajax/811214ca577390bc6ad669669b6e8c58",
+            dataType: "json",
+            accepts: "application/json",
             data: form.serialize(),
             success: function (data) {
+              console.log(data);
               // Success alert
               alert("Form Submited Successfully");
             },
-            error: function (data) {
+            error: function (err) {
+              console.log(err);
               // Error alert
               alert("Some Error");
             },
