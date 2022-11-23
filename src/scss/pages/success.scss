@@ -1,0 +1,10 @@
+// Success page image
+.success-img {
+  width: 250px;
+}
+// Success message
+.success-msg {
+  @include font-size(3.5rem);
+  font-family: $font-family-header;
+  // font-size: 56px;
+}
