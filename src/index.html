@@ -570,6 +570,7 @@
               action="https://formsubmit.co/811214ca577390bc6ad669669b6e8c58"
               method="POST"
               class="contact__form row pt-7"
+              id="form"
             >
               <!-- Honeypot -->
               <input type="text" name="_honey" style="display: none" />
@@ -623,7 +624,7 @@
               </div>
               <!-- Submit button -->
               <div class="col-sm-12 d-flex justify-content-center">
-                <button type="submit" class="btn primary-btn">
+                <button type="submit" id="submitBtn" class="btn primary-btn">
                   Send Message
                 </button>
               </div>
@@ -653,21 +654,9 @@
     <!----- JavaScript Links ----->
     <script type="module" src="./js/index.js"></script>
     <script src="./js/mobileNavBar.js"></script>
+    <script src="./js/contactForm.js"></script>
     <!-- JQuery Library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script>
-      $.ajax({
-        method: "POST",
-        url: "https://formsubmit.co/ajax/811214ca577390bc6ad669669b6e8c58",
-        dataType: "json",
-        accepts: "application/json",
-        data: {
-          name: "FormSubmit",
-          message: "I'm from Devro LABS",
-        },
-        success: (data) => console.log(data),
-        error: (err) => console.log(err),
-      });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   </body>
-</html>
+  </html>
+  
