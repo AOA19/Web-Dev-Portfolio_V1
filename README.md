@@ -1,6 +1,6 @@
 # Web Developer Portfolio
 
-This is the current version of my web developer portfolio showcasing what I've learned and my latest projects. Check out my site here [alexandraakinyemi.netlify.app](https://alexandraakinyemi.netlify.app).
+This is the current version of my web developer portfolio showcasing what I've learned and my latest projects. Check out my site here: [alexandraakinyemi.netlify.app](https://alexandraakinyemi.netlify.app).
 
 
 ## Built with
@@ -9,6 +9,7 @@ This is the current version of my web developer portfolio showcasing what I've l
 - Bootstrap 5
 - Sass
 - JavaScript 
+- Hosted with [Netlify](https://www.netlify.com/)
 
 
 ## What I used
