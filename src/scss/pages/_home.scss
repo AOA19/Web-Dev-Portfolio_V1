@@ -93,6 +93,14 @@
   }
 }
 
+.project__img {
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+}
+
 // *** Contact Section Styling *** //
 .contact__container {
   background-color: $secondary;
@@ -111,4 +119,3 @@
 .my-email:hover {
   color: $offwhite-bg;
 }
-
