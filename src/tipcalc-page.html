@@ -53,7 +53,7 @@
       <div class="collapse navbar-collapse bg-primary" id="navbarNav">
         <ul class="navbar-nav d-flex flex-lg-column text-center">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/#welcome">Home</a>
+            <a class="nav-link" href="/#welcome">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/#about">About</a>
@@ -143,16 +143,16 @@
                 target="_blank"
                 href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX"
                 class="frontend-link fw-bold"
+                aria-label="Go to frontend mentor site"
                 >Frontend Mentor</a
               >
-              challenge and built with HTML, CSS, and Vanilla JavaScript. The
-              purpose of this challenge was to recreate this tip calculator app
-              and get it as close to the provided JPG design file as possible.
-            </p>
-            <p>
-              I chose this project because JavaScript is essential for this
-              calculator to function. While building this calculator app, I was
-              able to test my knowledge on JavaScript operators.
+              challenge and built with HTML, CSS, and Vanilla JavaScript. As
+              part of this challenge, I built a tip calculator that displays the
+              tip amount and total amount per person after a user enters their
+              bill amount, selects the tip percentage, and enters the number of
+              people. In choosing this project, I wanted to test my knowledge of
+              JavaScript operators, functions, and statements, as well as to
+              practice implementing accessibility.
             </p>
           </div>
           <!-- Project image one -->
@@ -176,19 +176,30 @@
           <!-- Problems and thought process paragraph -->
           <div class="project-txt pe-lg-9">
             <p>
-              This project had its challenges. One particular difficulty I
-              encountered was crafting the code would accurately calculate the
-              tip per-person. The issues with the tip calculation ultimately
-              affected the total bill per person calculation.
-            </p>
-            <p>
-              When the tip button was clicked or a custom tip was entered, it
-              would result in an undefined value for the tip per-person. I
-              realized the undefined value occured because I separated the
+              This project had its challenges. One difficulty; I encountered was
+              crafting the code that would accurately calculate the tip per
+              person amount. The issue with the tip calculation ultimately
+              affected the total bill per person calculation. When the tip
+              button was clicked or a custom tip was entered, it would result in
+              an undefined value for the tip per person. I realized the
+              undefined value occurred because I separated the
               <code>for loop</code>, a statement that would loop through each
               tip button to get the value, from the function that would
               calculate the bill. By placing the <code>for loop</code> statement
-              inside of the function, I was able to resolve the issue.
+              inside the function, I was able to resolve the issue.
+            </p>
+            <p>
+              Another issue I faced was maintaining the accessiblity of the tip
+              buttons. I decided to use
+              <code>&ltinput type="radio"&gt</code> for my tip buttons. To match
+              the design of the buttons I initially set the
+              <code>display</code> property of the radio inputs to none. But
+              doing this eliminated keyboard focusability on those tip buttons.
+              To fix this problem, I removed the <code>display</code> property
+              replaced it with <code>opacity:0</code>, and added a border to the
+              tip buttons whenever they are focused on. In making this change,
+              users who navigate the web using their keyboards will be able to
+              tab through each of the tip buttons.
             </p>
           </div>
           <!-- Project image two -->
@@ -212,20 +223,12 @@
           <!-- Project purpose paragraph -->
           <div class="project-txt pe-lg-6">
             <p>
-              I was able to learn a lot about JavaScript operators while working
-              on this project. I learned how useful and flexible JavaScript
-              operators are when used in code.
-            </p>
-            <p>
-              Something else that I was able to learn about was making the reset
-              button accessible. I learned that when a button is disabled using
-              the <code>disabled</code> attribute, it takes away the keyboard
-              focus on that button. Which makes it difficult for users that use
-              their keyboards to navigate through the web. So instead of using
-              the <code>disabled</code> attribute on the button, use the
-              <code>aria-disabled</code> attribute. This information was very
-              useful for me because I want to make sure any project I work on is
-              web accessible.
+              The experience I gained from this project has given me a greater
+              understanding of using numerous statements (e.g., iteration and
+              conditional) inside a function to perform specific tasks. Having
+              my loop statements not work as intended encouraged me to
+              investigate why. My thorough research and testing enabled me to
+              find solutions that ultimately resulted in a working calculator.
             </p>
           </div>
         </div>
@@ -367,7 +370,7 @@
               target="_blank"
               href="https://github.com/AOA19/Web-Dev-Portfolio_V1"
               aria-label="Go to github profile"
-              class="copyright-link"
+              class="copyright-link ps-1"
               >AOA19</a
             >
           </p>
