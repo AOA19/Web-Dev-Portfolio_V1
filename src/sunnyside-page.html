@@ -22,6 +22,8 @@
       sizes="100x100"
       href="./images/portfolio-favicon.png"
     />
+    <!------------ AOS CSS File --------------->
+    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
     <!----------- Font Awesome ----------->
     <script
       src="https://kit.fontawesome.com/aabdb7c1a3.js"
@@ -128,7 +130,12 @@
         </div>
       </section>
       <!-------------------------- PROJECT PURPOSE ----------------------->
-      <section class="project-purpose pt-8 px-4 px-md-7 px-xxl-12">
+      <section
+        class="project-purpose pt-8 px-4 px-md-7 px-xxl-12"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-easing="ease-in"
+      >
         <div class="ps-lg-6">
           <div
             class="subsection-header text-center d-flex justify-content-center justify-content-md-start"
@@ -166,7 +173,12 @@
         </div>
       </section>
       <!-------------------------- PROBLEMS & THOUGHT PROCESS SECTION ----------------------->
-      <section class="problems-thoughts pt-8 px-4 px-md-7 px-xxl-12">
+      <section
+        class="problems-thoughts pt-8 px-4 px-md-7 px-xxl-12"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-easing="ease-in"
+      >
         <div class="ps-lg-6">
           <div
             class="subsection-header text-center d-flex justify-content-center justify-content-md-start"
@@ -232,7 +244,12 @@
         </div>
       </section>
       <!-------------------------- LESSON LEARNED SECTION ----------------------->
-      <section class="project-purpose pt-8 px-4 px-md-7 px-xxl-12">
+      <section
+        class="project-purpose pt-8 px-4 px-md-7 px-xxl-12"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-easing="ease-in"
+      >
         <div class="ps-lg-6">
           <div
             class="subsection-header text-center d-flex justify-content-center justify-content-md-start"
@@ -339,7 +356,7 @@
                   class="d-block w-100"
                 />
                 <p class="carousel-title text-center">
-                 BIPOC Wellness Directory
+                  BIPOC Wellness Directory
                 </p>
                 <!-- View project page link -->
                 <div class="project__btn-div text-center my-6">
@@ -402,5 +419,10 @@
     <!----- JavaScript Links ----->
     <script type="module" src="./js/index.js"></script>
     <script src="./js/mobileNavBar.js"></script>
+    <!-- AOS JS Files -->
+    <script src="../node_modules/aos/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
