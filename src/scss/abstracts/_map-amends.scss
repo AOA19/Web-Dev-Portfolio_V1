@@ -20,3 +20,10 @@ $custom-spacers: (
 // Merge of my spacer map with BS spacer map
 $spacers: map-merge($spacers, $custom-spacers);
 
+
+// Custom grid breakpoints 
+$custom-grid-breakpoints: (
+  xxxl: 1700px
+);
+// Merge custom grid-breakpoints
+$grid-breakpoints: map-merge($grid-breakpoints, $custom-grid-breakpoints);

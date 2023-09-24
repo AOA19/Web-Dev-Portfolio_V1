@@ -1,6 +1,8 @@
+
+
 // *** Welcome Section Styling *** //
 .welcome-section {
-  background-image: url("/src/images/hero-image-desktop.jpg");
+  background-image: url("../../images/hero-image-desktop.jpg");
   background-position: center;
   background-size: cover;
   min-height: 65vh;
@@ -55,7 +57,7 @@
 // *** Skills Section Styling *** //
 .skills-section {
   .skill__name {
-    color: $secondary;
+    color: $primary;
     font-size: 18px;
     font-weight: 700;
     padding-top: 8px;
@@ -74,32 +76,59 @@
 // *** Projects Section Styling *** //
 .project {
   background-color: $offwhite-bg;
-  .project__details {
-    p {
-      text-align: center;
+
+  .project__descr {
+    text-align: center;
+  }
+
+  // Hover for chingu link
+  .inline_link--hover{
+    transition: 0.3s ease-in-out;
+    &:hover {
+      color: $secondary;
     }
   }
+
+  // Project tech styling
   .project__tech {
     text-align: center;
     padding: {
       top: 20px;
       bottom: 20px;
     }
-    span {
-      background-color: $secondary;
-      border-radius: $border-radius-lg; //16px
-      color: $offwhite-bg;
-      font-weight: 700;
-      padding: 5px 16px;
+    .project__tech-icon {
+      color: $secondary;
+      font-size: 35px;
+    }
+
+    p {
+      font-size:14px;
     }
   }
 }
 
+
+
+@include media-breakpoint-up(md) {
+  .project_img-container {
+    width: 55%;
+  }
+}
 .project__img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+
   &:hover {
     cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.3s;
+  }
+}
+
+.project__btn-link {
+  margin: 8px;
+
+  @include media-breakpoint-between(md, lg) {
+    margin-right: 0px;
   }
 }
 

@@ -23,7 +23,12 @@
       href="./images/portfolio-favicon.png"
     />
     <!------------ AOS CSS File --------------->
-    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <!----------- Devicons----------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
     <!----------- Font Awesome ----------->
     <script
       src="https://kit.fontawesome.com/aabdb7c1a3.js"
@@ -74,7 +79,7 @@
               >
                 <!-- https://icons8.com/icon/62925/linkedin-circled LinkedIn Circled icon by Icons8 -->
                 <img
-                  src="./images/icon-linkedin-yellow.svg"
+                  src="images/icon-linkedin-yellow.svg"
                   alt="Linkedin icon"
                   width="40"
                   height="40"
@@ -122,7 +127,7 @@
       <!----------------------------------------- ABOUT ME SECTION ---------------------------------->
       <section class="about-section py-9" id="about" data-aos="fade-up">
         <div
-          class="d-flex justify-content-center justify-content-md-start ps-md-10 ps-xl-12"
+          class="d-flex justify-content-center justify-content-md-start ps-md-10 ps-xl-12 ps-xxxl-19"
         >
           <h3
             class="section-header text-center border-bottom border-secondary border-5"
@@ -195,10 +200,10 @@
           </div>
           <div class="skills-section container">
             <div
-              class="row row-cols-2 row-cols-sm-5 px-6 px-lg-10 px-xl-19 pt-4"
+              class="row row-cols-2 row-cols-sm-3 px-6 px-lg-10 px-xl-19 pt-4"
             >
               <!-- HTML Skill -->
-              <div class="skill skill--html col">
+              <div class="skill skill--html col col-lg-2">
                 <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -214,7 +219,7 @@
                 <p class="skill__name">Html</p>
               </div>
               <!-- CSS Skill -->
-              <div class="skill skill--css col">
+              <div class="skill skill--css col col-lg-2">
                 <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -231,7 +236,7 @@
               </div>
               <!-- JavaScript Skill -->
 
-              <div class="skill skill--js col">
+              <div class="skill skill--js col col-lg-2">
                 <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -247,7 +252,7 @@
                 <p class="skill__name">JavaScript</p>
               </div>
               <!-- React Skill -->
-              <div class="skill skill--react col">
+              <div class="skill skill--react col col-lg-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="80"
@@ -262,8 +267,24 @@
                 </svg>
                 <p class="skill__name">React</p>
               </div>
+              <!-- Tailwindcss Skill -->
+              <div class="skill skill--tailwind col col-lg-2">
+                <!-- Icons 8 - https://icons8.com/icon/CIAZz2CYc6Kc/tailwindcss -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 48 48"
+                  width="80px"
+                  height="80px"
+                >
+                  <path
+                    fill="#e7b11b"
+                    d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z"
+                  />
+                </svg>
+                <p class="skill__name">Tailwind CSS</p>
+              </div>
               <!-- Bootstrap Skill -->
-              <div class="skill skill--bootstrap col">
+              <div class="skill skill--bootstrap col col-lg-2">
                 <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -278,8 +299,24 @@
                 </svg>
                 <p class="skill__name">Bootstrap</p>
               </div>
+              <!-- Sass skill -->
+              <div class="skill skill-sass col col-lg-2">
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 640 512"
+                  style="fill: #e7b11b"
+                >
+                  <path
+                    d="M301.84 378.92c-.3.6-.6 1.08 0 0zm249.13-87a131.16 131.16 0 0 0-58 13.5c-5.9-11.9-12-22.3-13-30.1-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.3-6.7-24 2.5-25.29 5.9a122.83 122.83 0 0 0-5.3 19.1c-2.3 11.7-25.79 53.5-39.09 75.3-4.4-8.5-8.1-16-8.9-22-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.29-6.7-24 2.5-25.3 5.9-2.7 11.4-5.3 19.1-33.89 77.3-42.08 95.4c-4.2 9.2-7.8 16.6-10.4 21.6-.4.8-.7 1.3-.9 1.7.3-.5.5-1 .5-.8-2.2 4.3-3.5 6.7-3.5 6.7v.1c-1.7 3.2-3.6 6.1-4.5 6.1-.6 0-1.9-8.4.3-19.9 4.7-24.2 15.8-61.8 15.7-63.1-.1-.7 2.1-7.2-7.3-10.7-9.1-3.3-12.4 2.2-13.2 2.2s-1.4 2-1.4 2 10.1-42.4-19.39-42.4c-18.4 0-44 20.2-56.58 38.5-7.9 4.3-25 13.6-43 23.5-6.9 3.8-14 7.7-20.7 11.4-.5-.5-.9-1-1.4-1.5-35.79-38.2-101.87-65.2-99.07-116.5 1-18.7 7.5-67.8 127.07-127.4 98-48.8 176.35-35.4 189.84-5.6 19.4 42.5-41.89 121.6-143.66 133-38.79 4.3-59.18-10.7-64.28-16.3-5.3-5.9-6.1-6.2-8.1-5.1-3.3 1.8-1.2 7 0 10.1 3 7.9 15.5 21.9 36.79 28.9 18.7 6.1 64.18 9.5 119.17-11.8 61.78-23.8 109.87-90.1 95.77-145.6C386.52 18.32 293-.18 204.57 31.22c-52.69 18.7-109.67 48.1-150.66 86.4-48.69 45.6-56.48 85.3-53.28 101.9 11.39 58.9 92.57 97.3 125.06 125.7-1.6.9-3.1 1.7-4.5 2.5-16.29 8.1-78.18 40.5-93.67 74.7-17.5 38.8 2.9 66.6 16.29 70.4 41.79 11.6 84.58-9.3 107.57-43.6s20.2-79.1 9.6-99.5c-.1-.3-.3-.5-.4-.8 4.2-2.5 8.5-5 12.8-7.5 8.29-4.9 16.39-9.4 23.49-13.3-4 10.8-6.9 23.8-8.4 42.6-1.8 22 7.3 50.5 19.1 61.7 5.2 4.9 11.49 5 15.39 5 13.8 0 20-11.4 26.89-25 8.5-16.6 16-35.9 16-35.9s-9.4 52.2 16.3 52.2c9.39 0 18.79-12.1 23-18.3v.1s.2-.4.7-1.2c1-1.5 1.5-2.4 1.5-2.4v-.3c3.8-6.5 12.1-21.4 24.59-46 16.2-31.8 31.69-71.5 31.69-71.5a201.24 201.24 0 0 0 6.2 25.8c2.8 9.5 8.7 19.9 13.4 30-3.8 5.2-6.1 8.2-6.1 8.2a.31.31 0 0 0 .1.2c-3 4-6.4 8.3-9.9 12.5-12.79 15.2-28 32.6-30 37.6-2.4 5.9-1.8 10.3 2.8 13.7 3.4 2.6 9.4 3 15.69 2.5 11.5-.8 19.6-3.6 23.5-5.4a82.2 82.2 0 0 0 20.19-10.6c12.5-9.2 20.1-22.4 19.4-39.8-.4-9.6-3.5-19.2-7.3-28.2 1.1-1.6 2.3-3.3 3.4-5C434.8 301.72 450.1 270 450.1 270a201.24 201.24 0 0 0 6.2 25.8c2.4 8.1 7.09 17 11.39 25.7-18.59 15.1-30.09 32.6-34.09 44.1-7.4 21.3-1.6 30.9 9.3 33.1 4.9 1 11.9-1.3 17.1-3.5a79.46 79.46 0 0 0 21.59-11.1c12.5-9.2 24.59-22.1 23.79-39.6-.3-7.9-2.5-15.8-5.4-23.4 15.7-6.6 36.09-10.2 62.09-7.2 55.68 6.5 66.58 41.3 64.48 55.8s-13.8 22.6-17.7 25-5.1 3.3-4.8 5.1c.5 2.6 2.3 2.5 5.6 1.9 4.6-.8 29.19-11.8 30.29-38.7 1.6-34-31.09-71.4-89-71.1zm-429.18 144.7c-18.39 20.1-44.19 27.7-55.28 21.3C54.61 451 59.31 421.42 82 400c13.8-13 31.59-25 43.39-32.4 2.7-1.6 6.6-4 11.4-6.9.8-.5 1.2-.7 1.2-.7.9-.6 1.9-1.1 2.9-1.7 8.29 30.4.3 57.2-19.1 78.3zm134.36-91.4c-6.4 15.7-19.89 55.7-28.09 53.6-7-1.8-11.3-32.3-1.4-62.3 5-15.1 15.6-33.1 21.9-40.1 10.09-11.3 21.19-14.9 23.79-10.4 3.5 5.9-12.2 49.4-16.2 59.2zm111 53c-2.7 1.4-5.2 2.3-6.4 1.6-.9-.5 1.1-2.4 1.1-2.4s13.9-14.9 19.4-21.7c3.2-4 6.9-8.7 10.89-13.9 0 .5.1 1 .1 1.6-.13 17.9-17.32 30-25.12 34.8zm85.58-19.5c-2-1.4-1.7-6.1 5-20.7 2.6-5.7 8.59-15.3 19-24.5a36.18 36.18 0 0 1 1.9 10.8c-.1 22.5-16.2 30.9-25.89 34.4z"
+                  />
+                </svg>
+                <p class="skill__name">Sass</p>
+              </div>
               <!-- Git Skill -->
-              <div class="skill skill--git col">
+              <div class="skill skill--git col col-lg-2">
                 <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -295,24 +332,24 @@
                 </svg>
                 <p class="skill__name">Git</p>
               </div>
-              <!-- Sass skill -->
-              <div class="skill skill-sass flex-column">
-                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <!-- Github Skill -->
+              <div class="skill skill--git col col-lg-2">
+                <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="80"
                   height="80"
-                  viewBox="0 0 640 512"
                   style="fill: #e7b11b"
+                  viewBox="0 0 496 512"
                 >
                   <path
-                    d="M301.84 378.92c-.3.6-.6 1.08 0 0zm249.13-87a131.16 131.16 0 0 0-58 13.5c-5.9-11.9-12-22.3-13-30.1-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.3-6.7-24 2.5-25.29 5.9a122.83 122.83 0 0 0-5.3 19.1c-2.3 11.7-25.79 53.5-39.09 75.3-4.4-8.5-8.1-16-8.9-22-1.2-9.1-2.5-14.5-1.1-25.3s7.7-26.1 7.6-27.2-1.4-6.6-14.29-6.7-24 2.5-25.3 5.9-2.7 11.4-5.3 19.1-33.89 77.3-42.08 95.4c-4.2 9.2-7.8 16.6-10.4 21.6-.4.8-.7 1.3-.9 1.7.3-.5.5-1 .5-.8-2.2 4.3-3.5 6.7-3.5 6.7v.1c-1.7 3.2-3.6 6.1-4.5 6.1-.6 0-1.9-8.4.3-19.9 4.7-24.2 15.8-61.8 15.7-63.1-.1-.7 2.1-7.2-7.3-10.7-9.1-3.3-12.4 2.2-13.2 2.2s-1.4 2-1.4 2 10.1-42.4-19.39-42.4c-18.4 0-44 20.2-56.58 38.5-7.9 4.3-25 13.6-43 23.5-6.9 3.8-14 7.7-20.7 11.4-.5-.5-.9-1-1.4-1.5-35.79-38.2-101.87-65.2-99.07-116.5 1-18.7 7.5-67.8 127.07-127.4 98-48.8 176.35-35.4 189.84-5.6 19.4 42.5-41.89 121.6-143.66 133-38.79 4.3-59.18-10.7-64.28-16.3-5.3-5.9-6.1-6.2-8.1-5.1-3.3 1.8-1.2 7 0 10.1 3 7.9 15.5 21.9 36.79 28.9 18.7 6.1 64.18 9.5 119.17-11.8 61.78-23.8 109.87-90.1 95.77-145.6C386.52 18.32 293-.18 204.57 31.22c-52.69 18.7-109.67 48.1-150.66 86.4-48.69 45.6-56.48 85.3-53.28 101.9 11.39 58.9 92.57 97.3 125.06 125.7-1.6.9-3.1 1.7-4.5 2.5-16.29 8.1-78.18 40.5-93.67 74.7-17.5 38.8 2.9 66.6 16.29 70.4 41.79 11.6 84.58-9.3 107.57-43.6s20.2-79.1 9.6-99.5c-.1-.3-.3-.5-.4-.8 4.2-2.5 8.5-5 12.8-7.5 8.29-4.9 16.39-9.4 23.49-13.3-4 10.8-6.9 23.8-8.4 42.6-1.8 22 7.3 50.5 19.1 61.7 5.2 4.9 11.49 5 15.39 5 13.8 0 20-11.4 26.89-25 8.5-16.6 16-35.9 16-35.9s-9.4 52.2 16.3 52.2c9.39 0 18.79-12.1 23-18.3v.1s.2-.4.7-1.2c1-1.5 1.5-2.4 1.5-2.4v-.3c3.8-6.5 12.1-21.4 24.59-46 16.2-31.8 31.69-71.5 31.69-71.5a201.24 201.24 0 0 0 6.2 25.8c2.8 9.5 8.7 19.9 13.4 30-3.8 5.2-6.1 8.2-6.1 8.2a.31.31 0 0 0 .1.2c-3 4-6.4 8.3-9.9 12.5-12.79 15.2-28 32.6-30 37.6-2.4 5.9-1.8 10.3 2.8 13.7 3.4 2.6 9.4 3 15.69 2.5 11.5-.8 19.6-3.6 23.5-5.4a82.2 82.2 0 0 0 20.19-10.6c12.5-9.2 20.1-22.4 19.4-39.8-.4-9.6-3.5-19.2-7.3-28.2 1.1-1.6 2.3-3.3 3.4-5C434.8 301.72 450.1 270 450.1 270a201.24 201.24 0 0 0 6.2 25.8c2.4 8.1 7.09 17 11.39 25.7-18.59 15.1-30.09 32.6-34.09 44.1-7.4 21.3-1.6 30.9 9.3 33.1 4.9 1 11.9-1.3 17.1-3.5a79.46 79.46 0 0 0 21.59-11.1c12.5-9.2 24.59-22.1 23.79-39.6-.3-7.9-2.5-15.8-5.4-23.4 15.7-6.6 36.09-10.2 62.09-7.2 55.68 6.5 66.58 41.3 64.48 55.8s-13.8 22.6-17.7 25-5.1 3.3-4.8 5.1c.5 2.6 2.3 2.5 5.6 1.9 4.6-.8 29.19-11.8 30.29-38.7 1.6-34-31.09-71.4-89-71.1zm-429.18 144.7c-18.39 20.1-44.19 27.7-55.28 21.3C54.61 451 59.31 421.42 82 400c13.8-13 31.59-25 43.39-32.4 2.7-1.6 6.6-4 11.4-6.9.8-.5 1.2-.7 1.2-.7.9-.6 1.9-1.1 2.9-1.7 8.29 30.4.3 57.2-19.1 78.3zm134.36-91.4c-6.4 15.7-19.89 55.7-28.09 53.6-7-1.8-11.3-32.3-1.4-62.3 5-15.1 15.6-33.1 21.9-40.1 10.09-11.3 21.19-14.9 23.79-10.4 3.5 5.9-12.2 49.4-16.2 59.2zm111 53c-2.7 1.4-5.2 2.3-6.4 1.6-.9-.5 1.1-2.4 1.1-2.4s13.9-14.9 19.4-21.7c3.2-4 6.9-8.7 10.89-13.9 0 .5.1 1 .1 1.6-.13 17.9-17.32 30-25.12 34.8zm85.58-19.5c-2-1.4-1.7-6.1 5-20.7 2.6-5.7 8.59-15.3 19-24.5a36.18 36.18 0 0 1 1.9 10.8c-.1 22.5-16.2 30.9-25.89 34.4z"
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
                   />
                 </svg>
-                <p class="skill__name">Sass</p>
+                <p class="skill__name">Github</p>
               </div>
               <!-- Figma Skill -->
-              <div class="skill skill--figma col">
+              <div class="skill skill--figma col col-lg-2">
                 <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -328,7 +365,7 @@
                 <p class="skill__name">Figma</p>
               </div>
               <!-- Web Accessibilty Skill -->
-              <div class="skill skill--accessible col">
+              <div class="skill skill--accessible col col-lg-2">
                 <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -345,7 +382,7 @@
               </div>
 
               <!-- Repsonsive Design Skill -->
-              <div class="skill skill--responsive col">
+              <div class="skill skill--responsive col col-lg-2">
                 <!-- https://www.iconfinder.com/search?q=responsive%20design&price=free By: Piksart -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -365,9 +402,42 @@
                     </g>
                   </g>
                 </svg>
-                <p class="skill__name">Repsonsive Design</p>
+                <p class="skill__name">Responsive Design</p>
+              </div>
+              <!-- Wordpress Skill -->
+              <div class="skill skill--wordpress col col-lg-2">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 512 512"
+                  style="fill: #e7b11b"
+                >
+                  <path
+                    d="M61.7 169.4l101.5 278C92.2 413 43.3 340.2 43.3 256c0-30.9 6.6-60.1 18.4-86.6zm337.9 75.9c0-26.3-9.4-44.5-17.5-58.7-10.8-17.5-20.9-32.4-20.9-49.9 0-19.6 14.8-37.8 35.7-37.8.9 0 1.8.1 2.8.2-37.9-34.7-88.3-55.9-143.7-55.9-74.3 0-139.7 38.1-177.8 95.9 5 .2 9.7.3 13.7.3 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l77.5 230.4L249.8 247l-33.1-90.8c-11.5-.7-22.3-2-22.3-2-11.5-.7-10.1-18.2 1.3-17.5 0 0 35.1 2.7 56 2.7 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l76.9 228.7 21.2-70.9c9-29.4 16-50.5 16-68.7zm-139.9 29.3l-63.8 185.5c19.1 5.6 39.2 8.7 60.1 8.7 24.8 0 48.5-4.3 70.6-12.1-.6-.9-1.1-1.9-1.5-2.9l-65.4-179.2zm183-120.7c.9 6.8 1.4 14 1.4 21.9 0 21.6-4 45.8-16.2 76.2l-65 187.9C426.2 403 468.7 334.5 468.7 256c0-37-9.4-71.8-26-102.1zM504 256c0 136.8-111.3 248-248 248C119.2 504 8 392.7 8 256 8 119.2 119.2 8 256 8c136.7 0 248 111.2 248 248zm-11.4 0c0-130.5-106.2-236.6-236.6-236.6C125.5 19.4 19.4 125.5 19.4 256S125.6 492.6 256 492.6c130.5 0 236.6-106.1 236.6-236.6z"
+                  />
+                </svg>
+                <p class="skill__name">WordPress</p>
+              </div>
+              <!-- Squarespace skill -->
+              <div class="skill skill--square col col-lg-2">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 512 512"
+                  style="fill: #e7b11b"
+                >
+                  <path
+                    d="M186.12 343.34c-9.65 9.65-9.65 25.29 0 34.94 9.65 9.65 25.29 9.65 34.94 0L378.24 221.1c19.29-19.29 50.57-19.29 69.86 0s19.29 50.57 0 69.86L293.95 445.1c19.27 19.29 50.53 19.31 69.82.04l.04-.04 119.25-119.24c38.59-38.59 38.59-101.14 0-139.72-38.59-38.59-101.15-38.59-139.72 0l-157.22 157.2zm244.53-104.8c-9.65-9.65-25.29-9.65-34.93 0l-157.2 157.18c-19.27 19.29-50.53 19.31-69.82.05l-.05-.05c-9.64-9.64-25.27-9.65-34.92-.01l-.01.01c-9.65 9.64-9.66 25.28-.02 34.93l.02.02c38.58 38.57 101.14 38.57 139.72 0l157.2-157.2c9.65-9.65 9.65-25.29.01-34.93zm-261.99 87.33l157.18-157.18c9.64-9.65 9.64-25.29 0-34.94-9.64-9.64-25.27-9.64-34.91 0L133.72 290.93c-19.28 19.29-50.56 19.3-69.85.01l-.01-.01c-19.29-19.28-19.31-50.54-.03-69.84l.03-.03L218.03 66.89c-19.28-19.29-50.55-19.3-69.85-.02l-.02.02L28.93 186.14c-38.58 38.59-38.58 101.14 0 139.72 38.6 38.59 101.13 38.59 139.73.01zm-87.33-52.4c9.64 9.64 25.27 9.64 34.91 0l157.21-157.19c19.28-19.29 50.55-19.3 69.84-.02l.02.02c9.65 9.65 25.29 9.65 34.93 0 9.65-9.65 9.65-25.29 0-34.93-38.59-38.59-101.13-38.59-139.72 0L81.33 238.54c-9.65 9.64-9.65 25.28-.01 34.93h.01z"
+                  />
+                </svg>
+                <p class="skill__name">Squarespace</p>
               </div>
             </div>
+
             <!----- End of skill section ----->
           </div>
         </div>
@@ -375,9 +445,15 @@
       <!--------------------------------------- END OF ABOUT ME SECTION ----------------------------->
 
       <!----------------------------------------- PROJECTS SECTION ---------------------------------->
-      <section class="projects-section py-8" id="projects">
+      <section
+        class="projects-section py-8"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-easing="ease-in"
+        id="projects"
+      >
         <div
-          class="d-flex justify-content-center justify-content-md-start ps-md-10 ps-xl-12"
+          class="d-flex justify-content-center justify-content-md-start ps-md-10 ps-xl-12 ps-xxxl-19"
           data-aos="fade-up"
         >
           <h3
@@ -386,197 +462,321 @@
             Projects
           </h3>
         </div>
-        <div
-          class="container px-6"
-          data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-easing="ease-in"
-        >
-          <!------- Tip Calculator Project ------->
+        <div class="container px-4">
+          <!------- Skyfall Project ------->
           <div
-            class="project row flex-row-reverse py-4 mb-9 mx-lg-7 mx-xl-12 mx-xxl-17 border border-2 border-secondary rounded-4"
+            class="project py-4 px-2 mb-9 mx-lg-7 mx-xl-12 border border-2 border-secondary rounded-4"
           >
-            <!-- Project image -->
-            <div class="col-md-5 my-auto">
-              <a href="tipcalc-page.html">
-                <img
-                  src="./images/project_tip-calculator-macbook.png"
-                  alt="Screenshot of tip calcualtor project homepage on a macbook"
-                  class="project__img img-fluid"
-                />
-              </a>
-            </div>
-            <!-- Project description -->
-            <div class="col-md-7">
-              <div class="project__details">
-                <h4 class="project__name text-center mt-3">
-                  Splitter Tip Calculator
-                </h4>
-                <p class="project__descr mt-3">
-                  Out to dinner with friends, and you're struggling to calculate
-                  the proper tip? Put down that pen and paper and use the
-                  Splitter tip calculator to determine tip and total per-person
-                  amounts.
-                </p>
-              </div>
-              <!-- Technology used -->
-              <div
-                class="project__tech d-flex justify-content-between justify-content-md-evenly"
-              >
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>JavaScript</span>
-              </div>
-              <!-- View project page link -->
-              <div class="project__btn-div text-center my-4">
+            <div
+              class="d-flex flex-column flex-md-row-reverse align-items-center"
+            >
+              <!-- Project image -->
+              <div class="col-md-5 project_img-container">
                 <a
-                  href="tipcalc-page.html"
-                  aria-label="View tip calculator project page"
-                  class="primary-btn project__btn-link"
+                  href="https://team27-skyfall.netlify.app/"
+                  target="_blank"
+                  aria-label="View Skyfall project"
                 >
-                  View Project
+                  <img
+                    src="/images/project_skyfall.png"
+                    alt="View of skyfall project on macbook and iphone devices"
+                    class="project__img"
+                  />
                 </a>
+              </div>
+              <!-- Project description -->
+              <div class="project__details">
+                <h4 class="project__name text-center mt-3">Skyfall</h4>
+                <p class="project__descr mt-3 px-md-2">
+                  Skyfall is a collaborative project developed for
+                  <a
+                    href="https://www.chingu.io/"
+                    target="_blank"
+                    aria-label="Go to Chingu website"
+                    class="inline_link--hover text-decoration-underline"
+                    >Chingu</a
+                  >
+                  Voyage 45. This app enables users to search and filter
+                  meteorite data from the NASA Meteorite Landings API by name,
+                  composition, mass range, and year of strike. Users can view
+                  the filtered data in a table, explore the geolocation of the
+                  strike, and visualize the data through various charts.
+                </p>
+                <!-- Technology used -->
+                <div class="project__tech d-flex justify-content-evenly py-0">
+                  <span>
+                    <i class="fa-brands fa-react project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">React</p>
+                  </span>
+                  <span>
+                    <i class="fa-brands fa-js project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">JavaScript</p>
+                  </span>
+                  <span>
+                    <i class="devicon-tailwindcss-plain project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">Tailwind CSS</p>
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-gear project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">API</p>
+                  </span>
+                </div>
+                <!-- View live site link -->
+                <div
+                  class="project__btn-div text-center d-flex justify-content-center align-items-center"
+                >
+                  <a
+                    href="https://team27-skyfall.netlify.app/"
+                    target="_blank"
+                    aria-label="View live site of Skyfall app"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Site
+                  </a>
+                  <!-- View github link -->
+                  <a
+                    href="https://github.com/chingu-voyages/v45-tier2-team-27"
+                    target="_blank"
+                    aria-label="View Skyfall github repository"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-
-          <!------- Cacao and Chocolate Project ------->
+          <!------- TGIN Project ------->
           <div
-            class="project row flex-row-reverse py-4 mb-9 mx-lg-7 mx-xl-12 mx-xxl-17 border border-2 border-secondary rounded-4"
+            class="project py-4 px-2 mb-9 mx-lg-7 mx-xl-12 border border-2 border-secondary rounded-4"
           >
-            <!-- Project image -->
-            <div class="col-md-5 my-auto">
-              <a href="cc-page.html">
-                <img
-                  src="./images/project_c&c-macbook.png"
-                  alt="Screenshot of cacao and chocolate homepage on a macbook"
-                  class="project__img img-fluid"
-                />
-              </a>
-            </div>
-            <!-- Project description -->
-            <div class="col-md-7">
+            <div
+              class="d-flex flex-column flex-md-row-reverse align-items-center"
+            >
+              <!-- Project image -->
+              <div class="col-md-5 project_img-container">
+                <a
+                  href="https://tgin-landing-page.netlify.app/"
+                  target="_blank"
+                  aria-label="View TGIN project"
+                >
+                  <img
+                    src="/images/project_tgin.png"
+                    alt="View of TGIN project on macbook and iphone devices"
+                    class="project__img"
+                  />
+                </a>
+              </div>
+              <!-- Project description -->
               <div class="project__details">
                 <h4 class="project__name text-center mt-3">
-                  Cacao & Chocolate Product Page
+                  TGIN Landing Page
                 </h4>
-                <p class="project__descr mt-3">
-                  Have a love for gourmet chocolates? Check out C&C's various
-                  gourmet chocolates on their online store. Shop, add items to
-                  your cart, and see your total.
+                <p class="project__descr mt-3 px-md-2">
+                  Looking for a product to achieve your dream natural hair? Take
+                  a look at this redesigned landing page of the natural hair
+                  care brand, Thank God It’s Natural. Browse and filter through
+                  the collection of products, quickly view the product details,
+                  and add/remove items to/from the shopping cart.
                 </p>
-              </div>
-              <!-- Technology used -->
-              <div
-                class="project__tech d-flex justify-content-between justify-content-md-evenly"
-              >
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>JavaScript</span>
-              </div>
-              <!-- View project page link -->
-              <div class="project__btn-div text-center my-4">
-                <a
-                  href="cc-page.html"
-                  aria-label="View cacao and chocolate project page"
-                  class="primary-btn project__btn-link"
+                <!-- Technology used -->
+                <div class="project__tech d-flex justify-content-evenly py-0">
+                  <span>
+                    <i class="fa-brands fa-react project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">React</p>
+                  </span>
+                  <span>
+                    <i class="fa-brands fa-js project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">JavaScript</p>
+                  </span>
+                  <span>
+                    <i class="fa-brands fa-sass project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">Sass</p>
+                  </span>
+                  <span>
+                    <i class="fa-brands fa-bootstrap project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">Bootstrap</p>
+                  </span>
+                </div>
+                <!-- View live site link -->
+                <div
+                  class="project__btn-div text-center d-flex justify-content-center align-items-center"
                 >
-                  View Project
-                </a>
+                  <a
+                    href="https://tgin-landing-page.netlify.app/"
+                    target="_blank"
+                    aria-label="View live site of tgin page"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Site
+                  </a>
+                  <!-- View github link -->
+                  <a
+                    href="https://github.com/AOA19/tgin-landing-page"
+                    target="_blank"
+                    aria-label="View tgin github repository"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>
           <!------- BIPOC wellness directory project ------->
           <div
-            class="project row flex-row-reverse py-4 mb-9 mx-lg-7 mx-xl-12 mx-xxl-17 border border-2 border-secondary rounded-4"
+            class="project py-4 px-2 mb-9 mx-lg-7 mx-xl-12 border border-2 border-secondary rounded-4"
           >
-            <!-- Project Image -->
-            <div class="col-md-5 my-auto">
-              <a href="bipocwd-page.html">
-                <img
-                  src="./images/project_bipocwd-macbook.png"
-                  alt="Screenshot of Bipoc Welness Directory homepage on a macbook"
-                  class="project__img img-fluid"
-                />
-              </a>
-            </div>
-            <!-- Project Description -->
-            <div class="col-md-7">
+            <div
+              class="d-flex flex-column flex-md-row-reverse align-items-center"
+            >
+              <!-- Project image -->
+              <div class="col-md-5 project_img-container">
+                <a
+                  href="https://bipoc-wd.netlify.app/"
+                  target="_blank"
+                  aria-label="View bipoc wellness directory project page"
+                >
+                  <img
+                    src="/images/project_bipocwd.png"
+                    alt="View of BIPOC Wellness Directory project on macbook and iphone devices"
+                    class="project__img"
+                  />
+                </a>
+              </div>
+              <!-- Project description -->
               <div class="project__details">
                 <h4 class="project__name text-center mt-3">
                   BIPOC Wellness Directory
                 </h4>
                 <p class="project__descr mt-3 px-lg-4">
-                  A mockup of an application that features BIPOC (black,
-                  indigenous, and people of color) providers in a directory to
-                  address the necessity for BIPOC to find providers with whom
-                  they identify.
+                  A mockup of an application featuring BIPOC (Black, Indigenous,
+                  and People of Color) providers in a directory to address the
+                  needs of BIPOC individuals seeking healthcare professionals
+                  they can relate to. This is a collaborative project created
+                  for the
+                  <a
+                    href="https://girldevelopit.com/"
+                    target="_blank"
+                    class="inline_link--hover text-decoration-underline"
+                    >Girl Develop It</a
+                  >
+                  Hack for Health Hackathon.
                 </p>
-              </div>
-              <!-- Technology used -->
-              <div
-                class="project__tech d-flex justify-content-between justify-content-md-evenly"
-              >
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>React</span>
-              </div>
-              <!-- View project page link -->
-              <div class="project__btn-div text-center my-4">
-                <a
-                  href="bipocwd-page.html"
-                  aria-label="View bipoc wellness directory project page"
-                  class="primary-btn project__btn-link"
+                <!-- Technology used -->
+                <div class="project__tech d-flex justify-content-evenly py-0">
+                  <span>
+                    <i class="fa-brands fa-react project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">React</p>
+                  </span>
+                  <span>
+                    <i class="fa-brands fa-js project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">JavaScript</p>
+                  </span>
+                  <span>
+                    <i class="fa-brands fa-html5 project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">HTML</p>
+                  </span>
+                  <span>
+                    <i class="fa-brands fa-css3-alt project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">CSS</p>
+                  </span>
+                </div>
+                <!-- View live site link -->
+                <div
+                  class="project__btn-div text-center d-flex justify-content-center align-items-center"
                 >
-                  View Project
-                </a>
+                  <a
+                    href="https://bipoc-wd.netlify.app/"
+                    target="_blank"
+                    aria-label="View bipoc wellness directory project page"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Site
+                  </a>
+                  <!-- View github link -->
+                  <a
+                    href="https://github.com/AOA19/BIPOC-Wellness-Directory/tree/deliBranch"
+                    target="_blank"
+                    aria-label="View  github repository"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>
 
-          <!------- Sunnyside Project ------->
+          <!------- Tip Calculator Project ------->
           <div
-            class="project row flex-row-reverse py-4 mx-lg-7 mx-xl-12 mx-xxl-17 border border-2 border-secondary rounded-4"
+            class="project py-4 px-2 mb-9 mx-lg-7 mx-xl-12 border border-2 border-secondary rounded-4"
           >
-            <!-- Project image -->
-            <div class="col-md-5 my-auto">
-              <a href="sunnyside-page.html">
-                <img
-                  src="./images/project_sunnyside-macbook.png"
-                  alt="Screenshot of sunnyside project homepage on a macbook"
-                  class="project__img img-fluid"
-                />
-              </a>
-            </div>
-            <!-- Project description -->
-            <div class="col-md-7">
+            <div
+              class="d-flex flex-column flex-md-row-reverse align-items-center"
+            >
+              <!-- Project image -->
+              <div class="col-md-5 project_img-container">
+                <a
+                  href="https://aoa19.github.io/TipCalculatorApp/"
+                  target="_blank"
+                  aria-label="View Spiltter project"
+                >
+                  <img
+                    src="/images/project_tipcalc.png"
+                    alt="View of Spiltter project on macbook and iphone devices"
+                    class="project__img"
+                  />
+                </a>
+              </div>
+              <!-- Project description -->
               <div class="project__details">
                 <h4 class="project__name text-center mt-3">
-                  Sunnyside Agency Landing Page
+                  Splitter Tip Calculator
                 </h4>
-                <p class="project__descr mt-3">
-                  This is the landing page for the Sunnyside brand agency. They
-                  specialize in growing your brand quickly by providing
-                  excellent services and overall great customer service.
+                <p class="project__descr mt-3 px-md-2">
+                  Out to dinner with friends and struggling to calculate the
+                  proper tip? Put down that pen and paper and use the Splitter
+                  tip calculator to determine the tip and total per-person
+                  amounts.
                 </p>
-              </div>
-              <!-- Technology Used -->
-              <div
-                class="project__tech d-flex justify-content-between justify-content-md-evenly"
-              >
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>JavaScript</span>
-              </div>
-              <!-- View project page link -->
-              <div class="project__btn-div text-center my-4">
-                <a
-                  href="sunnyside-page.html"
-                  aria-label="View sunnyside project page"
-                  class="primary-btn project__btn-link"
+                <!-- Technology used -->
+                <div class="project__tech d-flex justify-content-evenly py-0">
+                  <span>
+                    <i class="fa-brands fa-js project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">JavaScript</p>
+                  </span>
+                  <span>
+                    <i class="fa-brands fa-html5 project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">HTML</p>
+                  </span>
+                  <span>
+                    <i class="fa-brands fa-css3-alt project__tech-icon"></i>
+                    <p class="pt-2 fw-bold">CSS</p>
+                  </span>
+                </div>
+                <!-- View live site link -->
+                <div
+                  class="project__btn-div text-center d-flex justify-content-center align-items-center"
                 >
-                  View Project
-                </a>
+                  <a
+                    href="https://aoa19.github.io/TipCalculatorApp/"
+                    target="_blank"
+                    aria-label="View live site of Spiltter app"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Site
+                  </a>
+                  <!-- View github link -->
+                  <a
+                    href="https://github.com/AOA19/TipCalculatorApp"
+                    target="_blank"
+                    aria-label="View tip calculator github repository"
+                    class="primary-btn project__btn-link"
+                  >
+                    View Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -585,10 +785,15 @@
         </div>
       </section>
       <!----------------------------------------- CONTACT SECTION ---------------------------------->
-      <section class="contact-section py-8" id="contact">
+      <section
+        class="contact-section py-8"
+        data-aos="fade-up"
+        data-aos-duration="600"
+        data-aos-easing="ease-in"
+        id="contact"
+      >
         <div
-          class="d-flex justify-content-center justify-content-md-start ps-md-10 ps-xl-12"
-          data-aos="fade-up"
+          class="d-flex justify-content-center justify-content-md-start ps-md-10 ps-xl-12 ps-xxxl-19"
         >
           <h3
             class="section-header text-center border-bottom border-secondary border-5"
@@ -597,12 +802,7 @@
           </h3>
         </div>
         <div class="px-lg-12 px-xxl-20">
-          <div
-            class="contact__container container rounded-3 g-0"
-            data-aos="fade-up"
-            data-aos-duration="600"
-            data-aos-easing="ease-in"
-          >
+          <div class="contact__container container rounded-3 g-0">
             <p class="contact__txt text-center px-md-10">
               Feel free to reach out to me if you're interested in working
               together, or just want to connect! You can also email me
@@ -690,7 +890,7 @@
       <!----------------------------------------- END OF CONTACT SECTION ---------------------------------->
       <!----------------------------------------- START OF FOOTER ---------------------------------->
       <footer class="footer-section">
-        <div class="container py-4 m-md-0">
+        <div class="container py-4">
           <p class="copyright d-flex justify-content-center text-center m-0">
             © 2023 Designed & Developed by
             <a
@@ -710,7 +910,7 @@
     <script type="module" src="./js/index.js"></script>
     <script src="./js/mobileNavBar.js"></script>
     <!-- AOS JS Files -->
-    <script src="../node_modules/aos/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>

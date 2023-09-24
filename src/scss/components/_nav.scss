@@ -121,6 +121,18 @@
     transition: left 0.2s ease-in-out;
   }
   .navbar-toggler.collapsed ~ .navbar-collapse {
+    left: -100%;
     transition: left 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 1500px) {
+  .nav-link {
+    @include font-size(1.875rem);
+  }
+}
+@media (min-height: 850px) {
+  .nav-icons {
+    margin-top: 200px;
   }
 }
