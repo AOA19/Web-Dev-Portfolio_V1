@@ -2,11 +2,12 @@
   "name": "web-portfolio_v1",
   "version": "1.0.0",
   "description": "My web developer portfolio",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "npm run build"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "sass": "^1.66.1",
