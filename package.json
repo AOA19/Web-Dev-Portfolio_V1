@@ -2,20 +2,18 @@
   "name": "web-portfolio_v1",
   "version": "1.0.0",
   "description": "My web developer portfolio",
-  "source": "./src/index.html",
+  "license": "MIT",
   "scripts": {
-    "start": "parcel serve ./src/*.html --public-url / --dist-dir dist",
-    "build": "parcel build ./src/*.html"
+    "dev": "vite",
+    "build": "vite build",
+    "test": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.0",
-    "parcel": "^2.8.0"
+    "sass": "^1.66.1",
+    "vite": "^4.4.9"
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "bootstrap": "^5.2.2"
+    "bootstrap": "^5.3.1"
   }
 }
