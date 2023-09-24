@@ -99,13 +99,10 @@
     position: fixed;
     top: 95px;
     width: 25%;
-    // For devices between 576px and 992px
-    // @include media-breakpoint-between(sm, lg) {
-    //   top: 90px;
-    // }
+  
     // For devices less than 576px
     @include media-breakpoint-down(sm) {
-      width: 35%;
+      width: 45%;
     }
   }
   .navbar-collapse.collapsing {
@@ -131,8 +128,8 @@
     @include font-size(1.875rem);
   }
 }
-@media (min-height: 850px) {
+@media (min-height: 811px) {
   .nav-icons {
-    margin-top: 200px;
+    margin-top: 180px;
   }
 }
