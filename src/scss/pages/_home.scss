@@ -5,7 +5,7 @@
   background-image: url('https://ik.imagekit.io/p6ax2eh8/hero-image-desktop.jpg');
   background-position: center;
   background-size: cover;
-  min-height: 65vh;
+  min-height: 100vh;
   animation: fade-in 1.6s both;
 }
 .title {
@@ -15,8 +15,12 @@
   }
 }
 .title-box {
+   @include media-breakpoint-up(lg) {
+    width: 500px;
+  }
   background-color: $offwhite-bg;
   animation: scale-up-center 0.6s ease-in both;
+ 
 
   h1 {
     color: $primary;
@@ -169,5 +173,11 @@
   100% {
     transform: scaleY(1);
     opacity: 1;
+  }
+}
+
+@media (min-height:799px) {
+  .title-box {
+    margin-top: 160px !important;
   }
 }
