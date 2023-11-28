@@ -1,23 +1,51 @@
 # Web Developer Portfolio
 
-This is the current version of my web developer portfolio showcasing what I've learned and my latest projects. Check out my site here: [alexandraakinyemi.netlify.app](https://alexandraakinyemi.netlify.app).
+This is the current version of my web developer portfolio showcasing what I've learned and my latest projects.
 
+Live Site: [alexandraakinyemi.netlify.app](https://alexandraakinyemi.netlify.app).
 
-## Built with
+## Technologies and Dependencies
 
-- Semantic HTML5 markup
-- Bootstrap 5
-- Sass
-- JavaScript 
-- Hosted with [Netlify](https://www.netlify.com/)
+Application built with:
+- Semantic HTML
+- JavaScript
+- [Bootstrap](https://getbootstrap.com/)
+- [Sass](https://sass-lang.com/)
+- [Vite](https://vitejs.dev/)
+- [AOS](https://michalsnik.github.io/aos/)
 
+### Tools Used 
 
-## What I used
-
-- [npm](https://www.npmjs.com/) package manager 
-- [Parcel](https://parceljs.org/) build tool
-- [Figma](figma.com) for website design
+- [Figma](figma.com) for design
 - [Unsplash](https://unsplash.com/) for stock photos
 - [unDraw](https://undraw.co/illustrations) for illustrations
-- [Font Awesome](https://fontawesome.com/), [Icons8](https://icons8.com/), [Icon Finder](https://www.iconfinder.com/) for icons
+- Icons used from:
+  - [Font Awesome](https://fontawesome.com/)
+  - [Icons8](https://icons8.com/)
+  - [Icon Finder](https://www.iconfinder.com/)
+  - [Devicons](https://devicon.dev/)
 - [Form Submit](https://formsubmit.co/) for contact form
+
+## Running the Project 
+
+1. Clone repo on local machine
+```
+git clone git@github.com:AOA19/Web-Dev-Portfolio_V1.git
+```
+2. Change to project directory
+```
+cd Web-Dev-Portfolio_V1
+```
+3. Install dependencies
+```
+npm install
+```
+4. Start server
+```
+npm run dv
+```
+5. Build and deploy app
+```
+npm run build
+```
+   
