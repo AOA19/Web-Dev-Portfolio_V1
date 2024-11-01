@@ -42,7 +42,7 @@ npm install
 ```
 4. Start server
 ```
-npm run dv
+npm run dev
 ```
 5. Build and deploy app
 ```
