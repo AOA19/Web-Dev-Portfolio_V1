@@ -1,8 +1,7 @@
 # Web Developer Portfolio
 
-This is the current version of my web developer portfolio showcasing what I've learned and my latest projects.
-
-Live Site: [alexandraakinyemi.netlify.app](https://alexandraakinyemi.netlify.app).
+This is the older version of my portfolio. 
+Check out my new portfolio here: [alexandraakinyemi.netlify.app](https://alexandraakinyemi.netlify.app).
 
 ## Technologies and Dependencies
 
@@ -26,7 +25,7 @@ Application built with:
   - [Devicons](https://devicon.dev/)
 - [Form Submit](https://formsubmit.co/) for contact form
 
-## Running the Project 
+<!-- ## Running the Project 
 
 1. Clone repo on local machine
 ```
@@ -48,4 +47,4 @@ npm run dev
 ```
 npm run build
 ```
-   
+    -->
